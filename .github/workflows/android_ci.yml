@@ -16,52 +16,60 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
-      
-      - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
-        with:
-          targets: aarch64-linux-android
-      
+
+      - name: Install Rust toolchain and Android target
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+          echo "CARGO_HOME=$HOME/.cargo" >> $GITHUB_ENV
+          echo "PATH=$HOME/.cargo/bin:$PATH" >> $GITHUB_ENV
+          # make sure env is available for subsequent steps; add components/target
+          rustup component add rust-src || true
+          rustup target add aarch64-linux-android
+
       - name: Install cargo-ndk
         run: cargo install cargo-ndk
-      
+
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         with:
           packages: 'ndk;25.2.9519653'
-      
+
+      - name: Export NDK env
+        # cargo-ndk may need ANDROID_NDK_HOME; expose it for subsequent steps
+        run: echo "ANDROID_NDK_HOME=${ANDROID_SDK_ROOT}/ndk/25.2.9519653" >> $GITHUB_ENV
+
       - name: Build Rust library
         working-directory: rust
         run: cargo ndk -t arm64-v8a build --release
-      
+
       - name: Copy native library
         run: |
           mkdir -p android/app/src/main/jniLibs/arm64-v8a
           cp rust/target/aarch64-linux-android/release/libterminal_core.so \
              android/app/src/main/jniLibs/arm64-v8a/
-      
+
       - name: Grant execute permission for gradlew
         working-directory: android
         run: chmod +x gradlew
-      
+
       - name: Build debug APK
         working-directory: android
         run: ./gradlew assembleDebug
-      
+
       - name: Run unit tests
         working-directory: android
         run: ./gradlew test
-      
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
