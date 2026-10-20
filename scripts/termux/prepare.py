@@ -229,6 +229,9 @@ PY
         patch(relative, original(relative), 'TERMUX_SUBPKG_EXCLUDED_ARCHES="aarch64"\n')
     patch("packages/git/build.sh", "--with-tcltk=$TERMUX_PREFIX/bin/wish", "--without-tcltk")
     patch("packages/git/build.sh", "NO_NSEC=1", "NO_NSEC=1\nNO_TCLTK=1\nNO_PERL=1")
+    patch("packages/git/build.sh", 'TERMUX_PKG_VERSION="2.56.0"',
+          'TERMUX_PKG_VERSION="2.56.0"\nTERMUX_PKG_REVISION=1')
+    patch("packages/git/build.sh", "NO_NSEC=1", "NO_NSEC=1\nNO_MMAP=1")
     patch("packages/git/build.sh", "DEFAULT_PAGER=pager", "DEFAULT_PAGER=less")
     bootstrap = "scripts/build-bootstraps.sh"
     text = original(bootstrap)

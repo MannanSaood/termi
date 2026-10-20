@@ -66,6 +66,23 @@ class RepositoryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             publisher.validate(self.root)
 
+    def test_retains_immutable_old_versions_and_pins_evidence(self):
+        package = Path(self.temp.name) / "fixture-git"
+        control = package / "DEBIAN/control"
+        control.write_text(control.read_text().replace("Version: 1.0", "Version: 1.0-1"))
+        target = self.root / "pool/git_1.0-1_aarch64.deb"
+        subprocess.run(["dpkg-deb", "--build", str(package), str(target)], check=True, stdout=subprocess.DEVNULL)
+        self.approval["packages"].append(dict(name="git", file=target.name, version="1.0-1",
+                                               architecture="aarch64", sha256=publisher.digest(target)))
+        proof = self.root / "provenance.json"
+        proof.write_text('{"reviewed": true}\n')
+        self.approval["evidence"] = {"provenance.json": publisher.digest(proof)}
+        self.save()
+        self.assertEqual(8, len(publisher.validate(self.root)["packages"]))
+        proof.write_text('{"reviewed": false}\n')
+        with self.assertRaises(ValueError):
+            publisher.validate(self.root)
+
     def test_signed_renewal_and_hostile_signature(self):
         home = Path(self.temp.name) / "gpg"
         home.mkdir(mode=0o700)

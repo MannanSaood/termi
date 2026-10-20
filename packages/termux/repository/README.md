@@ -12,6 +12,10 @@ resolved runtime dependencies are published. Git's Tcl/Tk GUI, SVN bridge and
 Perl features are omitted. OpenSSH, an editor, Python and other tools are not
 included. HTTPS Git is supported; use `git commit -m` or configure an installed
 editor. GitHub account authorization remains a user action (`gh auth login`).
+Git2.56.0 revision1 uses upstream `NO_MMAP=1`: the virtual workspace deliberately
+rejects mapped file access, so Git reads those files through ordinary checked
+reads instead. This can use more memory for large pack files. Local clone tests
+use `--no-local` to avoid Android's hardlink restriction.
 
 ## Authority and publication
 
@@ -35,6 +39,10 @@ Actions must match the inventory to the operator-controlled
 `TERMI_APT_INVENTORY_SHA256` variable before signing. Package hashes, identities,
 versions, architectures, pool membership, aliases and size limits are checked.
 Every catalog change requires an explicit new reviewed inventory hash.
+The same approval also pins the source archives, build records and SBOM.
+Retained older package versions remain immutable for existing by-hash indexes;
+APT selects the highest version. The bounded publisher permits at most90 package
+names and180 versioned artifacts, within a512MiB repository budget.
 
 The weekly Monday 04:17 UTC workflow and manual dispatch regenerate Release,
 InRelease and detached signatures with a 45-day validity window. They reverify

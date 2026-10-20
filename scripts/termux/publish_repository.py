@@ -37,12 +37,13 @@ def validate(root):
     if manifest.get("schema") != 1 or manifest.get("roots") != ["apt", "bash", "termux-exec", "termux-tools", "hello", "git", "gh"]:
         raise ValueError("Unapproved catalog roots")
     records = manifest["packages"]
-    if not 7 <= len(records) <= 90:
+    if not 7 <= len(records) <= 180:
         raise ValueError("Unexpected runtime closure")
-    files, names = set(), set()
+    files, names, identities = set(), set(), set()
     for record in records:
         name, filename = record["name"], record["file"]
-        if not re.fullmatch(r"[a-z0-9][a-z0-9+.-]+", name) or name in names:
+        identity = (name, record["version"], record["architecture"])
+        if not re.fullmatch(r"[a-z0-9][a-z0-9+.-]+", name) or identity in identities:
             raise ValueError("Ambiguous package identity")
         if not re.fullmatch(r"[A-Za-z0-9%+._~-]+\.deb", filename) or filename in files:
             raise ValueError("Unsafe or duplicate package filename")
@@ -57,7 +58,8 @@ def validate(root):
             raise ValueError("Debian metadata differs from approval")
         files.add(filename)
         names.add(name)
-    if not set(manifest["roots"]) <= names or {p.name for p in (root / "pool").iterdir()} != files:
+        identities.add(identity)
+    if len(names) > 90 or not set(manifest["roots"]) <= names or {p.name for p in (root / "pool").iterdir()} != files:
         raise ValueError("Incomplete closure or unapproved package in pool")
     evidence = manifest.get("evidence", {})
     if not isinstance(evidence, dict) or len(evidence) > 512:

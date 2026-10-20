@@ -45,6 +45,11 @@ def protect(data):
 
 
 def main():
+    container = json.loads(subprocess.check_output(["docker", "inspect", CONTAINER]))[0]
+    if (container["HostConfig"]["NetworkMode"] != "none" or container["Mounts"]
+            or container["Config"]["User"] != "builder"
+            or container["Config"]["Image"] != "ghcr.io/termux/package-builder@sha256:44999857244619e25bc8e3427904a16d36cc0c0e087704af039e5bdf94814ac9"):
+        raise SystemExit("Key provisioning requires the pinned, mount-free, network-disabled signer")
     ESCROW.mkdir(parents=True, exist_ok=True)
     backup = ESCROW / "repository-authority.dpapi"
     if backup.exists():
