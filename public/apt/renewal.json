@@ -1,0 +1,8 @@
+{
+  "generated": "2026-10-20T08:57:50.007205+00:00",
+  "valid_until": "2026-12-04T08:57:50.007205+00:00",
+  "signing_subkey": "210ACB83274F60F24D3E3F3E035672368292AB62",
+  "package_count": 62,
+  "inventory_sha256": "1eee534320ee38b3a3367b46fff3e92783635870d2c4d306c9ab56225a4e2a66",
+  "verification": "local approved bytes; metadata renewal is not package rebuilding"
+}

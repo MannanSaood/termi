@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Termi
+Label: Termi approved ARM64 packages
+Suite: stable
+Codename: stable
+Date: Tue, 20 Oct 2026 08:57:50 +0000
+Valid-Until: Fri, 04 Dec 2026 08:57:50 +0000
+Architectures: aarch64
+Components: main
+Acquire-By-Hash: yes
+X-Termi-Inventory-SHA256: 1eee534320ee38b3a3367b46fff3e92783635870d2c4d306c9ab56225a4e2a66
+X-Termi-Provenance-SHA256: 1d9fce921ff44d87a5f585fd95b9181a47cfcfceb5f5e8ad96f8b9d2468316c4
+X-Termi-SBOM-SHA256: 17fe4a0ede934b71ab0d41b9580307cd778ec4a75251f3be02565026314663ac
+X-Termi-Sources-SHA256: 04b6d57b0433e4e83fc8620600e02de45e25ff739f27507925a686763d019538
+SHA256:
+ 3e1d91f74671de6297e0f977eed58da40b9f9ec3987f57547e6884872327e011 30635 main/binary-aarch64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQhCsuDJ09g8k0+Pz4DVnI2gpKrYgUCatctDgAKCRADVnI2gpKr
+YrrUAQCDpux14erSSF17TmEW6pzBddgzoSRkqGim9IPklMKeUAEA1wJyoKWKOiGA
+2Wk4CWfOmZKEilQD2bcZiTevsvptDQk=
+=nWcg
+-----END PGP SIGNATURE-----
