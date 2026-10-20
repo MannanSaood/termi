@@ -186,6 +186,22 @@ SHA256: 6c7928a1a7deddb4aaad7192010d61303a029cf695191822121b102911cf146b
 Homepage: https://git-scm.com/
 Description: Fast, scalable, distributed revision control system
 
+Package: git
+Version: 2.56.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 24324
+Depends: libcurl, libexpat, libiconv, less, openssl, pcre2, zlib
+Recommends: openssh
+Suggests: perl
+Filename: pool/git_2.56.0-1_aarch64.deb
+Size: 4390488
+MD5sum: e2b7b611de52951761ceb704b6fc8e37
+SHA1: 0526d0ca34d383ef23690d42699dc24161f34449
+SHA256: 8110021151937ef096cd97860f399e0343fb87aca224899995e3c048a2223d61
+Homepage: https://git-scm.com/
+Description: Fast, scalable, distributed revision control system
+
 Package: gpgv
 Version: 2.5.24
 Architecture: aarch64
