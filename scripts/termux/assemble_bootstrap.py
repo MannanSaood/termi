@@ -149,6 +149,23 @@ def unpack(deb, root, prefix, work):
             raise ValueError("Unexpected Debian control member")
         shutil.copyfile(f, info / (name + "." + f.name))
         (info / (name + "." + f.name)).chmod(0o700 if f.name in {"preinst", "postinst", "prerm", "postrm"} else 0o600)
+    if not (control / "md5sums").exists():
+        # dpkg normally generates this legacy database record while unpacking.
+        # Bootstrap extraction must provide it too. Authentication still uses
+        # the signed SHA256 repository and APK-pinned SHA256 archive manifest.
+        checksums = []
+        with tarfile.open(fileobj=io.BytesIO(names)) as tar:
+            for member in tar:
+                if member.isfile():
+                    content = tar.extractfile(member)
+                    if content is None:
+                        raise ValueError("Missing regular Debian member")
+                    with content:
+                        value = hashlib.md5(content.read(), usedforsecurity=False).hexdigest()
+                    checksums.append(value + "  " + member.name.removeprefix("./"))
+        checksum_file = info / (name + ".md5sums")
+        checksum_file.write_text("\n".join(checksums) + ("\n" if checksums else ""))
+        checksum_file.chmod(0o600)
     with (prefix / "var/lib/dpkg/status").open("a") as out:
         out.write(text.strip() + "\nStatus: install ok unpacked\n\n")
 

@@ -1,5 +1,8 @@
 import io
 import os
+import hashlib
+import shutil
+import subprocess
 from pathlib import Path
 import tarfile
 import tempfile
@@ -10,6 +13,31 @@ from assemble_bootstrap import PREFIX, bundle, unpack
 
 
 class BootstrapAssemblyContracts(unittest.TestCase):
+    @unittest.skipUnless(os.name == "posix" and shutil.which("dpkg-deb"), "POSIX dpkg fixture")
+    def test_bootstrap_generates_missing_dpkg_checksum_records_from_payload(self):
+        with tempfile.TemporaryDirectory() as folder:
+            base = Path(folder)
+            package = base / "package"
+            (package / "DEBIAN").mkdir(parents=True)
+            (package / "DEBIAN/control").write_text(
+                "Package: checksum-fixture\nVersion: 1.0\nArchitecture: all\n"
+                "Maintainer: Fixture\nDescription: checksum fixture\n")
+            binary = package / PREFIX.lstrip("/") / "bin/tool"
+            binary.parent.mkdir(parents=True)
+            binary.write_bytes(b"proof")
+            binary.with_name("alias").symlink_to("tool")
+            deb = base / "fixture.deb"
+            subprocess.run(["dpkg-deb", "--build", "--root-owner-group", str(package), str(deb)],
+                           check=True, stdout=subprocess.DEVNULL)
+            root = base / "root"
+            prefix = root / PREFIX.lstrip("/")
+            work = base / "work"
+            work.mkdir()
+            unpack(deb, root, prefix, work)
+            expected = hashlib.md5(b"proof", usedforsecurity=False).hexdigest()
+            self.assertEqual(expected + "  " + PREFIX.lstrip("/") + "/bin/tool\n",
+                             (prefix / "var/lib/dpkg/info/checksum-fixture.md5sums").read_text())
+
     def test_rejects_hostile_built_members_before_dpkg_writes(self):
         base = PREFIX.lstrip("/")
         cases = [

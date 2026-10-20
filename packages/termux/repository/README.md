@@ -106,3 +106,22 @@ GH2.102.0 revision1 pins `github.com/gabriel-vasile/mimetype` v1.4.16 with
 explicit Go module sums. Its upstream v1.4.15 dependency was retracted for
 quadratic processing of specially crafted CDF files. The package provenance
 records this source modification as well as the Android subprocess adapter.
+
+## Verified integration and bootstrap repair
+
+On 2026-10-20, Git2.56.0-1 and GH2.102.0-1 passed installation, reinstall,
+local Git commit/clone, HTTPS access and GH child execution in ordinary and
+virtual sessions on OnePlus CPH2619 ARM64/API36. The normal terminal UI also
+passed. Other package ABIs, Android versions and secondary users remain unverified.
+
+The original immutable bootstrap omitted dpkg's legacy `md5sums` database
+records. Its 55 packages were repaired on the test phone by authenticated APT
+reinstallation of exact approved versions with `--force-confold`; the source
+configuration was compared before/after and `dpkg --audit` is now empty.
+The assembler now generates missing records from original Debian payload bytes.
+These MD5 records are dpkg compatibility data; package authentication still uses
+signed SHA256 metadata. The existing APK-pinned bootstrap was deliberately not
+replaced. Fresh installations using that older bootstrap still need this
+reconciliation before a clean full dpkg audit; a future bootstrap release must
+use an explicit identity migration. The repair asset and device evidence are in
+the local app integration checkout, separate from the published build control.
