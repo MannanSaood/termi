@@ -1,0 +1,51 @@
+name: Termux backend candidate
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Proof, manager bootstrap, or approved Git/GitHub CLI candidates
+        type: choice
+        options: [proof, bootstrap, catalog]
+        default: proof
+
+permissions:
+  contents: read
+
+jobs:
+  candidate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate preparation contracts
+        run: python3 -m unittest discover -s scripts/termux -p 'test_*.py' -v
+      - name: Fetch pinned upstream source
+        shell: bash
+        run: |
+          revision=$(python3 -c 'import json; print(json.load(open("packages/termux/upstream.lock.json"))["commit"])')
+          git init android/build/chat07/upstream
+          git -C android/build/chat07/upstream remote add origin https://github.com/termux/termux-packages.git
+          git -C android/build/chat07/upstream fetch --depth 1 origin "$revision"
+          git -C android/build/chat07/upstream checkout --detach FETCH_HEAD
+      - name: Build isolated candidate
+        env:
+          CANDIDATE_MODE: ${{ inputs.mode }}
+        run: python3 scripts/termux/build.py --upstream android/build/chat07/upstream --output android/build/chat07/candidate --mode "$CANDIDATE_MODE"
+      - name: Verify host signed repository fixtures
+        if: inputs.mode == 'proof'
+        run: python3 scripts/termux/verify_repository.py --build android/build/chat07/candidate
+      - name: Retain candidate and failure evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: termux-candidate-${{ inputs.mode }}
+          path: |
+            android/build/chat07/candidate/artifacts/
+            android/build/chat07/candidate/container-state.json
+            android/build/chat07/candidate/context/upstream.lock.json
+            android/build/chat07/candidate/context/patches.json
+            android/build/chat07/candidate/context/source.json
+            android/build/chat07/candidate/repository-fixtures/
+          if-no-files-found: warn
+          retention-days: 14

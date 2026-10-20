@@ -1,0 +1,5 @@
+# Terminal captures and protocol goldens must keep exact bytes on every host.
+fixtures/terminal/* -text
+scripts/termux/*.sh text eol=lf
+packages/termux/repository/repository.properties text eol=lf
+packages/termux/repository/*.gpg -text

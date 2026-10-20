@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/termux/termux-packages.git",
+  "commit": "a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a",
+  "builder_image": "ghcr.io/termux/package-builder@sha256:44999857244619e25bc8e3427904a16d36cc0c0e087704af039e5bdf94814ac9",
+  "application_id": "com.terminal.nextgen",
+  "prefix": "/data/data/com.terminal.nextgen/files/usr",
+  "architecture": "aarch64",
+  "package_api": 26,
+  "bootstrap_roots": ["apt", "bash", "termux-exec", "termux-tools"],
+  "proof_package": "hello",
+  "status": "candidate-not-approved-for-installation"
+}

@@ -1,0 +1,58 @@
+name: Renew and publish signed APT repository
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * 1'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: signed-apt-repository
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          path: control
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          ref: codex/apt-repository
+          path: repository
+      - name: Verify reviewed files and renew signatures
+        env:
+          TERMI_APT_SIGNING_SUBKEY: ${{ secrets.TERMI_APT_SIGNING_SUBKEY }}
+          TERMI_SIGNING_PASSPHRASE: ${{ secrets.TERMI_APT_SIGNING_PASSPHRASE }}
+          SIGNING_FINGERPRINT: ${{ vars.TERMI_APT_SIGNING_FINGERPRINT }}
+          INVENTORY_SHA256: ${{ vars.TERMI_APT_INVENTORY_SHA256 }}
+        run: |
+          set -euo pipefail
+          export GNUPGHOME="$RUNNER_TEMP/termi-authority"
+          mkdir -m 700 "$GNUPGHOME"
+          trap 'gpgconf --kill all; rm -rf "$GNUPGHOME"' EXIT
+          printf '%s' "$TERMI_APT_SIGNING_SUBKEY" | gpg --batch --import
+          unset TERMI_APT_SIGNING_SUBKEY
+          cmp control/packages/termux/repository/repository-keyring.gpg repository/public/apt/repository-keyring.gpg
+          python3 control/scripts/termux/publish_repository.py \
+            --root repository/public/apt --signing-fingerprint "$SIGNING_FINGERPRINT" \
+            --inventory-sha256 "$INVENTORY_SHA256"
+      - name: Retain renewal and immutable indexes
+        working-directory: repository
+        run: |
+          git config user.name 'Termi repository publisher'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/apt/dists public/apt/renewal.json
+          git commit -m 'Renew signed APT metadata for approved catalog'
+          git push origin HEAD:codex/apt-repository
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: repository/public
+      - name: Publish verified repository
+        id: deploy
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
