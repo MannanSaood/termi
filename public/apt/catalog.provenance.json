@@ -1,0 +1,28 @@
+{
+  "scope": "Exact approved ARM64 runtime closure; excludes Android bionic and build tools",
+  "recipe_commit": "a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a",
+  "prefix": "/data/data/com.terminal.nextgen/files/usr",
+  "package_api": 26,
+  "builder_image": "ghcr.io/termux/package-builder@sha256:44999857244619e25bc8e3427904a16d36cc0c0e087704af039e5bdf94814ac9",
+  "roots": [
+    "apt",
+    "bash",
+    "termux-exec",
+    "termux-tools",
+    "hello",
+    "git",
+    "gh"
+  ],
+  "patch_manifest_sha256": "a3fbd4cfa89abd7c5ca0eddafa0e5fe386967e1460ff01b43d2b392731c11a20",
+  "reproducibility": "Cache-assisted source builds; full clean closure reproduction not claimed",
+  "network": "Source archives and Go modules retrieved online with recipe hashes/Go module verification; metadata renewal is not a source rebuild",
+  "go_subprocess": "CGO enabled; Android linker mode uses system sh with positional arguments and installed Termux libc exec adapter",
+  "gh_dependency_override": {
+    "module": "github.com/gabriel-vasile/mimetype",
+    "version": "v1.4.16",
+    "sum": "h1:5izNFuvA37st1dDRAcA7TtmngBmRgiIPDmTtiEvjx1E=",
+    "reason": "Upstream v1.4.15 retracted for quadratic CDF parsing"
+  },
+  "sources": "Pinned upstream recipes declare exact upstream source URLs/hashes; local recipe overlays and build scripts accompany this catalog",
+  "package_records_sha256": "52f9c7b9aaae6c4392f99719ca0d341ead76a6cb2fa4785a94817b3d31805731"
+}

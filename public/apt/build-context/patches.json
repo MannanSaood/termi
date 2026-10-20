@@ -1,0 +1,172 @@
+[
+  {
+    "path": "scripts/properties.sh",
+    "before_sha256": "238a19b2f29ef5eed5806a21bee8f5a51bc5031e7db3fcc393d831292300b725",
+    "after_sha256": "362f40882ae1ea58f4c092c99cbe19c508c5754b904cf31f02e72b16dbbf09c8"
+  },
+  {
+    "path": "scripts/build/termux_step_get_dependencies.sh",
+    "before_sha256": "34e6b15a7a3d52be074161b7adc841a2a25a33b5014ebff39c31c43cf803bd54",
+    "after_sha256": "7e53602a316dcb7a8f3fe2348bd715e3693124d031bbd457f892262d2f769055"
+  },
+  {
+    "path": "scripts/build/termux_download_deb_pac.sh",
+    "before_sha256": "5895c2728ab0d21e32958692f4ed246f87b585a0dc54a2b0a0c5dfd8069c496e",
+    "after_sha256": "7947fbbd703f353f4b31c8981ba4ee60fe0a8cfb4b1f6322550cb3de322c0515"
+  },
+  {
+    "path": "packages/dpkg/build.sh",
+    "before_sha256": "3d149dcf1b6af1420a61a469b62aa523aee0428b90130a6f92c1667f80489ef0",
+    "after_sha256": "7381e1bd2b799bfdcaabcf9a285d7b97a8d0b4a69e0c435079292b3364812f14"
+  },
+  {
+    "path": "packages/apt/build.sh",
+    "before_sha256": "cee8cd316662be9ed7f9799afb76c1709d914b33c2d642191237a7720fd324e8",
+    "after_sha256": "efc665f03c9ab73a46d0c1dd26312258200a4d20d8665608c1056c3d4f58b4d2"
+  },
+  {
+    "path": "packages/apt/build.sh",
+    "before_sha256": "efc665f03c9ab73a46d0c1dd26312258200a4d20d8665608c1056c3d4f58b4d2",
+    "after_sha256": "4d2792bda5fdd77e92c1312131e0eed7aa845562ca12daccaf541df987cc1005"
+  },
+  {
+    "path": "packages/apt/build.sh",
+    "before_sha256": "4d2792bda5fdd77e92c1312131e0eed7aa845562ca12daccaf541df987cc1005",
+    "after_sha256": "40c89cb0b4851ff643ab5ffea5a8c95d690dd0d8a71d87c1f33a9224a3f0dcfe"
+  },
+  {
+    "path": "packages/libdb/build.sh",
+    "before_sha256": "8ff1a6b4dd3c584a22818fdabf07f6bb5804a376de20aa8c1538a0f3628c2977",
+    "after_sha256": "a6cab815643f62cf48fa3da7ec5abafca2c69ed67e179a8bc4c1e8141ceceaac"
+  },
+  {
+    "path": "packages/apt/apt-transport-tor.subpackage.sh",
+    "before_sha256": "bde44fb8d5605dac640eea9ecedd106b5660f02869ce36adb1dfb672664330dc",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/libunbound/pyunbound.subpackage.sh",
+    "before_sha256": "4eecc52fd4cd04ca82045fed72e448e8d25995989bc84af3ea08c856d73857de",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/libunbound/unbound.subpackage.sh",
+    "before_sha256": "47e86ee0d84db82d519558eb38a567e21e54e8d9a51ed4d93282ccc4697196d4",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/hash-slinger/build.sh",
+    "before_sha256": "3f0bb9992b592882700ce9cfb2b3e5c9864fa68d0ab6659c4a655932372202c5",
+    "after_sha256": "4dfa2810707317e7687a8068c7e105074eee9e252a1872576593e414de16f281"
+  },
+  {
+    "path": "packages/libunbound/build.sh",
+    "before_sha256": "3373020a05bde81f314a03caac736feac9e376aba304fadcc594dff62c523bee",
+    "after_sha256": "055843ac76466a5aa7fe89b8c7e89eb4cb9bc95009ded3308f6d3f3b67998dd6"
+  },
+  {
+    "path": "packages/libunbound/build.sh",
+    "before_sha256": "055843ac76466a5aa7fe89b8c7e89eb4cb9bc95009ded3308f6d3f3b67998dd6",
+    "after_sha256": "c576ff34ad67f56fd42221a9576144d7c13fa05ddafa2c0ece3f22521e12e8af"
+  },
+  {
+    "path": "packages/libunbound/build.sh",
+    "before_sha256": "c576ff34ad67f56fd42221a9576144d7c13fa05ddafa2c0ece3f22521e12e8af",
+    "after_sha256": "462c722a7387b18553bf572bfdbedb64c81b6c7818321952bcad9935fbfbae33"
+  },
+  {
+    "path": "packages/libunbound/build.sh",
+    "before_sha256": "462c722a7387b18553bf572bfdbedb64c81b6c7818321952bcad9935fbfbae33",
+    "after_sha256": "4f9ce6800930455248e53f48f859f84b564e0c431c17c8b698caeebaf12c1c11"
+  },
+  {
+    "path": "packages/libunbound/build.sh",
+    "before_sha256": "4f9ce6800930455248e53f48f859f84b564e0c431c17c8b698caeebaf12c1c11",
+    "after_sha256": "72f7569b129c81ede2654cc3cfcdd5c8bf4d59bc1d66bfed3dbca230c71b9bc7"
+  },
+  {
+    "path": "packages/bash/build.sh",
+    "before_sha256": "0ae5269ef87944e4c166455fc9507b7fc4a1f46078e5426a452ba78b23722e54",
+    "after_sha256": "5fdba592247e649fd6e43fd97bcfeaf4ddaa8c49f6b37cc7078beb56f6a6ff26"
+  },
+  {
+    "path": "packages/termux-tools/build.sh",
+    "before_sha256": "c858d156af8ca6c96959331e7031bba37f8a78290fe54cd2064b8b96ea572479",
+    "after_sha256": "02d16c4243c33f143dd8402c554990a36e007bf2a47296d14f63def9f20876f8"
+  },
+  {
+    "path": "packages/termux-tools/build.sh",
+    "before_sha256": "02d16c4243c33f143dd8402c554990a36e007bf2a47296d14f63def9f20876f8",
+    "after_sha256": "4bdbd907f5db2dc5630a3c82e89a21f276e6c4e70e4ea29410fb553db78d0f68"
+  },
+  {
+    "path": "packages/termux-tools/build.sh",
+    "before_sha256": "4bdbd907f5db2dc5630a3c82e89a21f276e6c4e70e4ea29410fb553db78d0f68",
+    "after_sha256": "280f823715b82bb54845fd164d2a1738d82ccc88f47b8ab50a1f4c61d56c0640"
+  },
+  {
+    "path": "packages/termux-keyring/build.sh",
+    "before_sha256": "e8eaa8534583e4710c3a01b7289da238054f9d829fa413946e27d0d47cf0e347",
+    "after_sha256": "771aa53dc03dfdbaf928b878e70776be456cdbe313767653cf82b2f04c04ab41"
+  },
+  {
+    "path": "packages/gh/build.sh",
+    "before_sha256": "a26022905b66f39851553abea3b5e68c38671988b4e2a9a649366845dadfb266",
+    "after_sha256": "a20feb9a3f95cf797fa1f6a5425d01d2ab6c611a868e4ec1b192c54482df8f1d"
+  },
+  {
+    "path": "packages/gh/build.sh",
+    "before_sha256": "a20feb9a3f95cf797fa1f6a5425d01d2ab6c611a868e4ec1b192c54482df8f1d",
+    "after_sha256": "c77083b9e03de56817c4f728c9ae33b2d0a1a0f4f1fe7dc2b383fda5153259ea"
+  },
+  {
+    "path": "packages/gh/build.sh",
+    "before_sha256": "c77083b9e03de56817c4f728c9ae33b2d0a1a0f4f1fe7dc2b383fda5153259ea",
+    "after_sha256": "1b71ee42e5277a5e4c5cf994604a9edf8c9d674a9d60f186e678098ebf04e872"
+  },
+  {
+    "path": "packages/git/git-gitk.subpackage.sh",
+    "before_sha256": "be73a1995223a5fc63af96e5ecdf7f9757fd790a70e26dcb94c7712c8491cb60",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/git/git-gui.subpackage.sh",
+    "before_sha256": "ad25b727e66f4e4d801094819ca5010ab49a88dc4be92075c89a6711f814f0ed",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/git/git-svn.subpackage.sh",
+    "before_sha256": "38e5ddbf1e9a22aa06ba16d79289c4a30d7a4d938b375ec7e3d2aa2649dc10cc",
+    "after_sha256": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36"
+  },
+  {
+    "path": "packages/git/build.sh",
+    "before_sha256": "8ec1f92e20e9a18c3c20a725102ed445df1a07c66250e1bd94fd7539625c08a9",
+    "after_sha256": "ca57240367a1599e3dffbbcbd8fa27323ecb6936eb0414a40658e49cba532ca6"
+  },
+  {
+    "path": "packages/git/build.sh",
+    "before_sha256": "ca57240367a1599e3dffbbcbd8fa27323ecb6936eb0414a40658e49cba532ca6",
+    "after_sha256": "d870927f11f0b7555c96d4c88fbc730aa162c0d685d4fe1068bda1a3353ba5c0"
+  },
+  {
+    "path": "packages/git/build.sh",
+    "before_sha256": "d870927f11f0b7555c96d4c88fbc730aa162c0d685d4fe1068bda1a3353ba5c0",
+    "after_sha256": "87cf1ef1a45a821be15f6460689dcadf2223f53d13837b5ae37c9dc8feeef157"
+  },
+  {
+    "path": "scripts/build-bootstraps.sh",
+    "before_sha256": "3ac5ee9e94d84796f528f0f6afce9c4e82a54f0df95f8515b237ab8817c94877",
+    "after_sha256": "a53daabba237b730642522936f0a846af7784b2c3570e93ebcd83b577acb7492"
+  },
+  {
+    "path": "scripts/build-bootstraps.sh",
+    "before_sha256": "a53daabba237b730642522936f0a846af7784b2c3570e93ebcd83b577acb7492",
+    "after_sha256": "f7a9c804ea1d9380bb95e582dc98ddfa05e2739af6c9628a028605127b215e46"
+  },
+  {
+    "path": "scripts/build/toolchain/termux_setup_toolchain_30.sh",
+    "before_sha256": "99948d16fb40e368db6863c53df839afcbc220659cc127716a0b9d63ccf74c5c",
+    "after_sha256": "27936583b9971a0b3fb394bd9b3c715aacbf669532cefb85a955083f411059be"
+  }
+]

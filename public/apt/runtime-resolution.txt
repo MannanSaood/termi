@@ -1,0 +1,153 @@
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists...
+Building dependency tree...
+Solving dependencies...
+The following additional packages will be installed:
+  attr bzip2 ca-certificates coreutils dash diffutils dpkg findutils gpgv grep
+  gzip less libacl libandroid-glob libandroid-selinux libandroid-support
+  libassuan libbz2 libc++ libcurl libevent libexpat libffi libgcrypt libgmp
+  libgnutls libgpg-error libiconv libidn2 liblz4 liblzma libmd libnettle
+  libnghttp2 libnghttp3 libngtcp2 libnpth libssh2 libtasn1 libunbound
+  libunistring ncurses openssl p11-kit pcre2 readline resolv-conf sed tar
+  termux-keyring termux-licenses xxhash xz-utils zlib zstd
+Suggested packages:
+  gnupg perl termux-api
+Recommended packages:
+  command-not-found bash-completion openssh
+The following NEW packages will be installed:
+  apt attr bash bzip2 ca-certificates coreutils dash diffutils dpkg findutils
+  gh git gpgv grep gzip hello less libacl libandroid-glob libandroid-selinux
+  libandroid-support libassuan libbz2 libc++ libcurl libevent libexpat libffi
+  libgcrypt libgmp libgnutls libgpg-error libiconv libidn2 liblz4 liblzma
+  libmd libnettle libnghttp2 libnghttp3 libngtcp2 libnpth libssh2 libtasn1
+  libunbound libunistring ncurses openssl p11-kit pcre2 readline resolv-conf
+  sed tar termux-exec termux-keyring termux-licenses termux-tools xxhash
+  xz-utils zlib zstd
+0 upgraded, 62 newly installed, 0 to remove and 0 not upgraded.
+Inst pcre2 (10.49 APK offline proof only:proof [aarch64])
+Conf pcre2 (10.49 APK offline proof only:proof [aarch64])
+Inst libandroid-selinux (14.0.0.11-1 APK offline proof only:proof [aarch64])
+Conf libandroid-selinux (14.0.0.11-1 APK offline proof only:proof [aarch64])
+Inst libandroid-support (29-1 APK offline proof only:proof [aarch64])
+Conf libandroid-support (29-1 APK offline proof only:proof [aarch64])
+Inst libc++ (30 APK offline proof only:proof [aarch64])
+Conf libc++ (30 APK offline proof only:proof [aarch64])
+Inst libgmp (6.3.0-2 APK offline proof only:proof [aarch64])
+Conf libgmp (6.3.0-2 APK offline proof only:proof [aarch64])
+Inst libiconv (1.19 APK offline proof only:proof [aarch64])
+Conf libiconv (1.19 APK offline proof only:proof [aarch64])
+Inst ca-certificates (1:2026.09.25 APK offline proof only:proof [all])
+Conf ca-certificates (1:2026.09.25 APK offline proof only:proof [all])
+Inst zlib (1.3.2 APK offline proof only:proof [aarch64])
+Conf zlib (1.3.2 APK offline proof only:proof [aarch64])
+Inst openssl (1:3.6.5 APK offline proof only:proof [aarch64])
+Conf openssl (1:3.6.5 APK offline proof only:proof [aarch64])
+Inst coreutils (9.12 APK offline proof only:proof [aarch64])
+Conf coreutils (9.12 APK offline proof only:proof [aarch64])
+Inst libbz2 (1.0.8-8 APK offline proof only:proof [aarch64])
+Conf libbz2 (1.0.8-8 APK offline proof only:proof [aarch64])
+Inst bzip2 (1.0.8-8 APK offline proof only:proof [aarch64])
+Conf bzip2 (1.0.8-8 APK offline proof only:proof [aarch64])
+Inst diffutils (3.12-2 APK offline proof only:proof [aarch64])
+Conf diffutils (3.12-2 APK offline proof only:proof [aarch64])
+Inst gzip (1.15 APK offline proof only:proof [aarch64])
+Conf gzip (1.15 APK offline proof only:proof [aarch64])
+Inst ncurses (6.6.20260307+really6.5.20250830 APK offline proof only:proof [aarch64])
+Conf ncurses (6.6.20260307+really6.5.20250830 APK offline proof only:proof [aarch64])
+Inst less (710 APK offline proof only:proof [aarch64])
+Conf less (710 APK offline proof only:proof [aarch64])
+Inst liblzma (5.8.4 APK offline proof only:proof [aarch64])
+Conf liblzma (5.8.4 APK offline proof only:proof [aarch64])
+Inst libmd (1.3.0 APK offline proof only:proof [aarch64])
+Conf libmd (1.3.0 APK offline proof only:proof [aarch64])
+Inst attr (2.6.0 APK offline proof only:proof [aarch64])
+Conf attr (2.6.0 APK offline proof only:proof [aarch64])
+Inst libacl (2.4.0 APK offline proof only:proof [aarch64])
+Conf libacl (2.4.0 APK offline proof only:proof [aarch64])
+Inst libandroid-glob (0.6-3 APK offline proof only:proof [aarch64])
+Conf libandroid-glob (0.6-3 APK offline proof only:proof [aarch64])
+Inst tar (1.35-3 APK offline proof only:proof [aarch64])
+Conf tar (1.35-3 APK offline proof only:proof [aarch64])
+Inst xz-utils (5.8.4 APK offline proof only:proof [aarch64])
+Conf xz-utils (5.8.4 APK offline proof only:proof [aarch64])
+Inst zstd (1.5.7-1 APK offline proof only:proof [aarch64])
+Conf zstd (1.5.7-1 APK offline proof only:proof [aarch64])
+Inst dpkg (1.22.6-5 APK offline proof only:proof [aarch64])
+Conf dpkg (1.22.6-5 APK offline proof only:proof [aarch64])
+Inst findutils (4.11.0 APK offline proof only:proof [aarch64])
+Conf findutils (4.11.0 APK offline proof only:proof [aarch64])
+Inst libgpg-error (1.61 APK offline proof only:proof [aarch64])
+Conf libgpg-error (1.61 APK offline proof only:proof [aarch64])
+Inst libassuan (3.0.2-1 APK offline proof only:proof [aarch64])
+Conf libassuan (3.0.2-1 APK offline proof only:proof [aarch64])
+Inst libgcrypt (1.12.4 APK offline proof only:proof [aarch64])
+Conf libgcrypt (1.12.4 APK offline proof only:proof [aarch64])
+Inst libnpth (1.8 APK offline proof only:proof [aarch64])
+Conf libnpth (1.8 APK offline proof only:proof [aarch64])
+Inst gpgv (2.5.24 APK offline proof only:proof [aarch64])
+Conf gpgv (2.5.24 APK offline proof only:proof [aarch64])
+Inst grep (3.12-3 APK offline proof only:proof [aarch64])
+Conf grep (3.12-3 APK offline proof only:proof [aarch64])
+Inst libnettle (4.0+really3.10.2 APK offline proof only:proof [aarch64])
+Conf libnettle (4.0+really3.10.2 APK offline proof only:proof [aarch64])
+Inst libunistring (1.4.2 APK offline proof only:proof [aarch64])
+Conf libunistring (1.4.2 APK offline proof only:proof [aarch64])
+Inst libidn2 (2.3.8-1 APK offline proof only:proof [aarch64])
+Conf libidn2 (2.3.8-1 APK offline proof only:proof [aarch64])
+Inst libtasn1 (4.21.0 APK offline proof only:proof [aarch64])
+Conf libtasn1 (4.21.0 APK offline proof only:proof [aarch64])
+Inst libevent (2.1.13 APK offline proof only:proof [aarch64])
+Conf libevent (2.1.13 APK offline proof only:proof [aarch64])
+Inst libnghttp2 (1.70.0 APK offline proof only:proof [aarch64])
+Conf libnghttp2 (1.70.0 APK offline proof only:proof [aarch64])
+Inst libngtcp2 (1.25.0 APK offline proof only:proof [aarch64])
+Conf libngtcp2 (1.25.0 APK offline proof only:proof [aarch64])
+Inst resolv-conf (1.3 APK offline proof only:proof [aarch64])
+Conf resolv-conf (1.3 APK offline proof only:proof [aarch64])
+Inst libunbound (1.26.1 APK offline proof only:proof [aarch64])
+Conf libunbound (1.26.1 APK offline proof only:proof [aarch64])
+Inst libffi (3.8.0 APK offline proof only:proof [aarch64])
+Conf libffi (3.8.0 APK offline proof only:proof [aarch64])
+Inst p11-kit (0.26.5 APK offline proof only:proof [aarch64])
+Conf p11-kit (0.26.5 APK offline proof only:proof [aarch64])
+Inst libgnutls (3.8.13-1 APK offline proof only:proof [aarch64])
+Conf libgnutls (3.8.13-1 APK offline proof only:proof [aarch64])
+Inst liblz4 (1.10.0-1 APK offline proof only:proof [aarch64])
+Conf liblz4 (1.10.0-1 APK offline proof only:proof [aarch64])
+Inst sed (4.10 APK offline proof only:proof [aarch64])
+Conf sed (4.10 APK offline proof only:proof [aarch64])
+Inst termux-keyring (3.14 APK offline proof only:proof [all])
+Conf termux-keyring (3.14 APK offline proof only:proof [all])
+Inst termux-licenses (2.2 APK offline proof only:proof [all])
+Conf termux-licenses (2.2 APK offline proof only:proof [all])
+Inst xxhash (0.8.4 APK offline proof only:proof [aarch64])
+Conf xxhash (0.8.4 APK offline proof only:proof [aarch64])
+Inst apt (2.8.1-2 APK offline proof only:proof [aarch64])
+Conf apt (2.8.1-2 APK offline proof only:proof [aarch64])
+Inst readline (8.3.6 APK offline proof only:proof [aarch64])
+Conf readline (8.3.6 APK offline proof only:proof [aarch64])
+Inst bash (5.3.20 APK offline proof only:proof [aarch64])
+Conf bash (5.3.20 APK offline proof only:proof [aarch64])
+Inst dash (0.5.13.5 APK offline proof only:proof [aarch64])
+Conf dash (0.5.13.5 APK offline proof only:proof [aarch64])
+Inst libnghttp3 (1.18.0 APK offline proof only:proof [aarch64])
+Conf libnghttp3 (1.18.0 APK offline proof only:proof [aarch64])
+Inst libssh2 (1.11.1-2 APK offline proof only:proof [aarch64])
+Conf libssh2 (1.11.1-2 APK offline proof only:proof [aarch64])
+Inst libcurl (8.23.0 APK offline proof only:proof [aarch64])
+Conf libcurl (8.23.0 APK offline proof only:proof [aarch64])
+Inst termux-exec (1:2.5.0-1 APK offline proof only:proof [aarch64])
+Conf termux-exec (1:2.5.0-1 APK offline proof only:proof [aarch64])
+Inst termux-tools (1.46.0+really1.45.0-1 APK offline proof only:proof [aarch64])
+Conf termux-tools (1.46.0+really1.45.0-1 APK offline proof only:proof [aarch64])
+Inst gh (2.102.0-1 APK offline proof only:proof [aarch64])
+Inst libexpat (2.9.0 APK offline proof only:proof [aarch64])
+Inst git (2.56.0 APK offline proof only:proof [aarch64])
+Inst hello (2.12.3-1 APK offline proof only:proof [aarch64])
+Conf gh (2.102.0-1 APK offline proof only:proof [aarch64])
+Conf libexpat (2.9.0 APK offline proof only:proof [aarch64])
+Conf git (2.56.0 APK offline proof only:proof [aarch64])
+Conf hello (2.12.3-1 APK offline proof only:proof [aarch64])

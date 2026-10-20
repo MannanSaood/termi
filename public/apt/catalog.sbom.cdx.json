@@ -1,0 +1,4954 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "Termi approved package catalog",
+      "version": "1"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "apt",
+      "name": "apt",
+      "version": "2.8.1-2",
+      "purl": "pkg:deb/termi/apt@2.8.1-2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e89e13b85d193487524c77ef0f193f2417cdd095629f24486538d7833c4636db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/apt/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "40c89cb0b4851ff643ab5ffea5a8c95d690dd0d8a71d87c1f33a9224a3f0dcfe"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libiconv, libgcrypt, libgnutls, liblz4, liblzma, sed, termux-keyring, termux-licenses, xxhash, zlib, zstd"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "attr",
+      "name": "attr",
+      "version": "2.6.0",
+      "purl": "pkg:deb/termi/attr@2.6.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1f042f3a4530e3827d3b5fbf7a6b00e5174db8173e2608eb8b12fdb381432c65"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/attr/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "550c8d4e22e0850ef442c0bfc69dc23aa6b84f58473536bbc2e0f40d19cd7219"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "bash",
+      "name": "bash",
+      "version": "5.3.20",
+      "purl": "pkg:deb/termi/bash@5.3.20?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "93b479159fa8b670cddda7ac34562e76c77f1d621ff1eaa35f40e0dd72774af1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/bash/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "5fdba592247e649fd6e43fd97bcfeaf4ddaa8c49f6b37cc7078beb56f6a6ff26"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support, libiconv, readline (>= 8.3)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "bzip2",
+      "name": "bzip2",
+      "version": "1.0.8-8",
+      "purl": "pkg:deb/termi/bzip2@1.0.8-8?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "43baa068a617efc4b1238464d437c11430a5e933b916b351ed8d847ea9b1061f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libbz2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "68f9d95c4f2323a14ba8768884b88b782c922b80c9888c23dd8c3892631cf625"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libbz2 (= 1.0.8-8)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ca-certificates",
+      "name": "ca-certificates",
+      "version": "1:2026.09.25",
+      "purl": "pkg:deb/termi/ca-certificates@1%3A2026.09.25?arch=all",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "711257e09e8e2596029205e0029db9bf6df93b70b11dd8c79ff770f48b50df50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/ca-certificates/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "49346cd737c0c8f423f26cb0cb04467f93fb9d69c9c1fb1aff5840a9ea215861"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "coreutils",
+      "name": "coreutils",
+      "version": "9.12",
+      "purl": "pkg:deb/termi/coreutils@9.12?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e6dd52b28885d5a503748f5ca751b26a6e84cacd08086e1a0e77f1b6080393e5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/coreutils/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "4cc0f482e2b652506c1cc16abbd061d80fe5e5804c2a940a88a1aaa71731c439"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1:3.5.0-1)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dash",
+      "name": "dash",
+      "version": "0.5.13.5",
+      "purl": "pkg:deb/termi/dash@0.5.13.5?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dcdb62140996e92558e3bba412aa521a9bd5cf75b61cf0b10ec34c46050aef7a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/dash/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "882117dd1d1008c1f649bf1f95aeabde98209c4ce2b9a5b4c64d1cf644e40aab"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "diffutils",
+      "name": "diffutils",
+      "version": "3.12-2",
+      "purl": "pkg:deb/termi/diffutils@3.12-2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "891854b3e1ce3cee3b028e0e1639908a8d34bcbedfe64244744228061e7aade1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/diffutils/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "b9e47d878b9e70ce191e7596dfa93c1a7b5d919d7aa47ff0c7f111a2242c228e"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libiconv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dpkg",
+      "name": "dpkg",
+      "version": "1.22.6-5",
+      "purl": "pkg:deb/termi/dpkg@1.22.6-5?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4085c6c6c85ff7d6679ff1cec3e7a598079667e10709424ceae3565e9c17a4e1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/dpkg/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "7381e1bd2b799bfdcaabcf9a285d7b97a8d0b4a69e0c435079292b3364812f14"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "findutils",
+      "name": "findutils",
+      "version": "4.11.0",
+      "purl": "pkg:deb/termi/findutils@4.11.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "55dbb9755e7746b56f7e3aeaf11136b55f90492436da4c3ef7a4a2b1880824d9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/findutils/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "95d87e84d9fc19b18ec186b29bbfc0fd818af4d92cfcb57d330590d69e65a051"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "gh",
+      "name": "gh",
+      "version": "2.102.0-1",
+      "purl": "pkg:deb/termi/gh@2.102.0-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "23ceb902ea87dab733e2afbc99b581cb5a5231a1269b882498d7fff3c7b3ba97"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/gh/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "1b71ee42e5277a5e4c5cf994604a9edf8c9d674a9d60f186e678098ebf04e872"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "git",
+      "name": "git",
+      "version": "2.56.0",
+      "purl": "pkg:deb/termi/git@2.56.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6c7928a1a7deddb4aaad7192010d61303a029cf695191822121b102911cf146b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/git/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "87cf1ef1a45a821be15f6460689dcadf2223f53d13837b5ae37c9dc8feeef157"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libcurl, libexpat, libiconv, less, openssl, pcre2, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "gpgv",
+      "name": "gpgv",
+      "version": "2.5.24",
+      "purl": "pkg:deb/termi/gpgv@2.5.24?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "505155bc5a811481c6f1884f5f3e0f6ec351b39d9db412492a5a126374d3e117"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/gnupg/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "b7d3e4c23f2662d230e1d88e908b5c3870f5dcdf85d483bf9dbd84e52ad541e0"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "grep",
+      "name": "grep",
+      "version": "3.12-3",
+      "purl": "pkg:deb/termi/grep@3.12-3?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac87766b1e4ab34f1cbe990ee85558b3d6fb799648ff475bddfbedbb537d82e0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/grep/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "13445b9b7f8b0d42cf8e81d4b9c35edda4581bafa5f1df79aa03bf165670550f"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support, pcre2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "gzip",
+      "name": "gzip",
+      "version": "1.15",
+      "purl": "pkg:deb/termi/gzip@1.15?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "789b4b2f4fde92566041a936fc43eca39478317c4f9a55f9ef0c0cd6b6ea7b77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/gzip/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "a28b7de8f5fa81e87f37243640e19200dcace9e8ee74530e1894435aa9cd692b"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "hello",
+      "name": "hello",
+      "version": "2.12.3-1",
+      "purl": "pkg:deb/termi/hello@2.12.3-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49f919878ad689a3f804250c28c54fd9bf95fad69a642aa6caee7f2f965cb189"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/hello/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "14f7d8eec7bd1ca2833596ae6884a930d1af8bbc61e42b34543331b14a5aab3b"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libiconv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "less",
+      "name": "less",
+      "version": "710",
+      "purl": "pkg:deb/termi/less@710?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "33d2f046fc5f3d5a85717959ecc3cd5836a77da44daa44c25121a72183bf6b37"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0, custom (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/less/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "24addf768a261d47bbacd34a81ed3c8bdd59e57be0a992de5f8879e9d9706350"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "ncurses, pcre2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libacl",
+      "name": "libacl",
+      "version": "2.4.0",
+      "purl": "pkg:deb/termi/libacl@2.4.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "31e3719590a3a6b31bbdb7a63410144655fd51c6a47fac25585dba487cc7e3a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1, GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libacl/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "792c2568f0c0ea7ac99ad5e7630ae60f2522cdb602897d718b0ecdac4df63d36"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "attr"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libandroid-glob",
+      "name": "libandroid-glob",
+      "version": "0.6-3",
+      "purl": "pkg:deb/termi/libandroid-glob@0.6-3?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0c2213fb672dbc5a39784bd9d1edf3491dfc157d3951c4f700a71919e84a89d7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libandroid-glob/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "d21990594578e13a1b792508e023c9b385fd837c7f2ac0b851ada50a5c953132"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libandroid-selinux",
+      "name": "libandroid-selinux",
+      "version": "14.0.0.11-1",
+      "purl": "pkg:deb/termi/libandroid-selinux@14.0.0.11-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c0f547f8237051fba191e31893b9df94ee1639d03bba906ab257f87ec23671e5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libandroid-selinux/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "98b11e90b4f7bc9afaa85fd4005a0dec1151d1272ee71e7bd88c81b95d0d56a6"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "pcre2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libandroid-support",
+      "name": "libandroid-support",
+      "version": "29-1",
+      "purl": "pkg:deb/termi/libandroid-support@29-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fa40da7253cd8cde48d1f6c2e5033228d7ec81246555d293217963be544bb253"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0, MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libandroid-support/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "23f10711528bcc66a3a8728d218f43efea8467bfbb7db222796e5f5b89ac0d79"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libassuan",
+      "name": "libassuan",
+      "version": "3.0.2-1",
+      "purl": "pkg:deb/termi/libassuan@3.0.2-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6c21495bcc97fd0a99176d537679295fa467b75beded1d0f60939a2e0288dbbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libassuan/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "d2021eb2edf7b70ecce7f56cfdf5e92f5feed482a2477df58bd21dc2fb499411"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libgpg-error"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libbz2",
+      "name": "libbz2",
+      "version": "1.0.8-8",
+      "purl": "pkg:deb/termi/libbz2@1.0.8-8?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "493e2b148b6a363231f26be5532d9803d6c6a04194984b6d460b564bc61b8cc2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libbz2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "68f9d95c4f2323a14ba8768884b88b782c922b80c9888c23dd8c3892631cf625"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libc++",
+      "name": "libc++",
+      "version": "30",
+      "purl": "pkg:deb/termi/libc++@30?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "90aaf91072fada5c75b96c1f59357518babdc8ca856c293953dc831cbb639c35"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "NCSA (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libc++/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "f0e670ec0f30469e91920a42427115e4bee082c8a22a6dc72e983603dfe659cf"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libcurl",
+      "name": "libcurl",
+      "version": "8.23.0",
+      "purl": "pkg:deb/termi/libcurl@8.23.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f02504df60df5b3cdad63b260aef1d84db82e4f26a37f42b5ebe3a018f5cdc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libcurl/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "0051cc33b3d3f0b69e74a00c67ba668f295b6eb3574e548154653d7e69f12025"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libnghttp2, libnghttp3, libngtcp2, libssh2, openssl (>= 1:3.2.1-1), zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libevent",
+      "name": "libevent",
+      "version": "2.1.13",
+      "purl": "pkg:deb/termi/libevent@2.1.13?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9197a8b53cba389b882fa596773dc70a3966d16fd39c4eb8e26b744582002093"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libevent/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "06f0bef36b02a8eaf79eb255ec709ca488ca5927e55ed8cfe7786903aa420f68"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libexpat",
+      "name": "libexpat",
+      "version": "2.9.0",
+      "purl": "pkg:deb/termi/libexpat@2.9.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "71c05ed7fbe7383b1384010ac03496211318521a34497d522f94efffd5042bb9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libexpat/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "f8101759677259a33b83edd45cb47a57d19f4ddee52afc3d6e138ad04438e8f3"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libffi",
+      "name": "libffi",
+      "version": "3.8.0",
+      "purl": "pkg:deb/termi/libffi@3.8.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cbb8bf885ed42a550cb3140b98da09158d6dad48d88a6dd4ef4b84d0ed7a5924"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libffi/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "0a7f2e44163fe2d43a48680968a5254bad0ee1032f89fe20cfcfe5dbddb2555e"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libgcrypt",
+      "name": "libgcrypt",
+      "version": "1.12.4",
+      "purl": "pkg:deb/termi/libgcrypt@1.12.4?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7bef58d3350e0dfbd8724161df0176b3357a60356b32d9bc21c2678afa7bfcc5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0, LGPL-2.1, BSD 3-Clause, MIT, Public Domain (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libgcrypt/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "6179551969bf422d893def939b1589a5fd4e63f7c89c79c55594f3111445e6c3"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libgpg-error"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libgmp",
+      "name": "libgmp",
+      "version": "6.3.0-2",
+      "purl": "pkg:deb/termi/libgmp@6.3.0-2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d03a9a6ada700a391c9a827fe43a8dfac8684f199ab56f0b5fa68df26d445c2b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libgmp/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "fd916d397c849bade7a7c83a26a65169897bdd097a9de25fc62aeba1a50e8de5"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libc++"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libgnutls",
+      "name": "libgnutls",
+      "version": "3.8.13-1",
+      "purl": "pkg:deb/termi/libgnutls@3.8.13-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "968d39bfb54d9df7ef554483142accbafb9fdc1586fe81250b0694b8dc31a76c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1, GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libgnutls/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "2dc9afb3bde9123a44b11751c4a54f6e2691c2492e6b1aff2c45cc64586d3853"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libc++, libgmp, libnettle, ca-certificates, libidn2, libtasn1, libunbound, libunistring, p11-kit, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libgpg-error",
+      "name": "libgpg-error",
+      "version": "1.61",
+      "purl": "pkg:deb/termi/libgpg-error@1.61?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cc55cd55aed466947bcadf516aa6a440fd38b47511f8208db1c1bace4e993865"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libgpg-error/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "24791c65765d778832d5425be6518ded28179ff1f08a664666ef9c55318e46f5"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libiconv",
+      "name": "libiconv",
+      "version": "1.19",
+      "purl": "pkg:deb/termi/libiconv@1.19?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a77f28d82bf857f1e046ed1d58b3d6c31a2eb2def6c82ae52651d4e8a10d5f57"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1, GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libiconv/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "5542ba656ce53cf6c13659afe25c6fe69e254d2b9e05b0d8105f4f4b3dc9cb15"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libidn2",
+      "name": "libidn2",
+      "version": "2.3.8-1",
+      "purl": "pkg:deb/termi/libidn2@2.3.8-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c27c55a193b4a1be57eb95b835de2c787420e0a368e2f27033a5b450b5a5b321"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0, GPL-2.0, GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libidn2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "13dcbe4d713bc6beb01c9e666527594db097f271d368dfd97d46bca196412a9f"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support, libiconv, libunistring"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "liblz4",
+      "name": "liblz4",
+      "version": "1.10.0-1",
+      "purl": "pkg:deb/termi/liblz4@1.10.0-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c10511ea5d3c0bdbebcb65137827f57cf8bb398fca05fa56575a3e47a0cfe462"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/liblz4/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "0cb497e3177555cf43d58d310e0175adfcec92069c34ce5c108eca8198624a68"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "liblzma",
+      "name": "liblzma",
+      "version": "5.8.4",
+      "purl": "pkg:deb/termi/liblzma@5.8.4?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bd84a3336a1ed93bea252c2f0646c11ef6c968ecde905931b9858b274891e70a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1, GPL-2.0, GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/liblzma/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "b75e6d0c87edd1579e834139c66cd99c1a74de4f0d68bee9c0c9ad46eda30772"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libmd",
+      "name": "libmd",
+      "version": "1.3.0",
+      "purl": "pkg:deb/termi/libmd@1.3.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5ce44393846a23e3f8b54a7bfa0b5a3d9a2c163db83eaa4f59160e9aab53cd7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "custom (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libmd/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "de8af65addaa676b7add5a28306775bfb065b7bbc2642ec369fea13ee8bb0ffa"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libnettle",
+      "name": "libnettle",
+      "version": "4.0+really3.10.2",
+      "purl": "pkg:deb/termi/libnettle@4.0%2Breally3.10.2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aad79363320ab71861894cc358e3e9213dd97a66dd473bdbd185286fc13d1388"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0, LGPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libnettle/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "2c531a739239957b950b8ec03bc3f3ccc4a60a5f4578312dc53d73c9e3f47bbb"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libgmp"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libnghttp2",
+      "name": "libnghttp2",
+      "version": "1.70.0",
+      "purl": "pkg:deb/termi/libnghttp2@1.70.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8058b88e5d771f93c149e90601c3eeac46c9ed196a435aae37b69ef0763fc3e4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libnghttp2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "0860290bcf314619c3744d9ae75ab7c7b20951baf2013e9e04dafc7f29b55447"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libnghttp3",
+      "name": "libnghttp3",
+      "version": "1.18.0",
+      "purl": "pkg:deb/termi/libnghttp3@1.18.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4aca8b7d2f04fa0309c73a214bd9f1a013ff88ce54052927bdda528697721e98"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libnghttp3/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "3c36d3fb8a483efaa0252a113f87e283e83f549632bf22562e0e7415e71cb30f"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libngtcp2",
+      "name": "libngtcp2",
+      "version": "1.25.0",
+      "purl": "pkg:deb/termi/libngtcp2@1.25.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5432c92c2d9d33e2b4ea4cdcb49d43f7f7eaf6a4f549a50515eea5a327673087"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libngtcp2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "622048f19724f9f28c47909be37d94a751c5fd14b6eb33557bf53da26ea7c5ff"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "openssl"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libnpth",
+      "name": "libnpth",
+      "version": "1.8",
+      "purl": "pkg:deb/termi/libnpth@1.8?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f3698e1a005a32ceda4e1fc71bb25a4dadbe8a9670fe3b01db0b5e0d3e3d029d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libnpth/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "014b0eae5134aa062a40c868468f297f9e1ebdfc94ba79470d17bd4f0a0f027f"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libssh2",
+      "name": "libssh2",
+      "version": "1.11.1-2",
+      "purl": "pkg:deb/termi/libssh2@1.11.1-2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4943a79cd34b346047eef7c03c570abf45eb732816960816a1a13db450e5f558"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libssh2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "222db4a13edf104316a53bc4c57214b9c351e6a816286c63e1850ca07fe75067"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "openssl, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libtasn1",
+      "name": "libtasn1",
+      "version": "4.21.0",
+      "purl": "pkg:deb/termi/libtasn1@4.21.0?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "584d29a91ddf30e318b9ad4605208edc76308b270fde7e42bb657496159445fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libtasn1/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "5953bafc2ef869990e100a90f876b274fd4c804f560afbd58f66871691e4948e"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libunbound",
+      "name": "libunbound",
+      "version": "1.26.1",
+      "purl": "pkg:deb/termi/libunbound@1.26.1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7ccc388d6a8fe74453ef47ca4d1d8ae24f68f4ebc30e16a24e0c728f71810de9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libunbound/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "72f7569b129c81ede2654cc3cfcdd5c8bf4d59bc1d66bfed3dbca230c71b9bc7"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libevent, libnghttp2, libngtcp2, openssl, resolv-conf"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libunistring",
+      "name": "libunistring",
+      "version": "1.4.2",
+      "purl": "pkg:deb/termi/libunistring@1.4.2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4c8ca13ad695430095a094de95232b0fe0c02373e3fffd91041b073d7b670a04"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0, GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/libunistring/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "ad3070ea9961bbe5cc0a8fbab9f9207e7620c9596f208b5f5b0f3d44266ef392"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support, libiconv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ncurses",
+      "name": "ncurses",
+      "version": "6.6.20260307+really6.5.20250830",
+      "purl": "pkg:deb/termi/ncurses@6.6.20260307%2Breally6.5.20250830?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ff79ecbab0e3048afb28e960083693626ab286ff93702c5721910cec53d13c91"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/ncurses/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "350a65eb4f5d5086d95c2b05db129557c62dbbbf0c5f82ee7163e0de12f4ea34"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "openssl",
+      "name": "openssl",
+      "version": "1:3.6.5",
+      "purl": "pkg:deb/termi/openssl@1%3A3.6.5?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d08900fbbec5644c2a4f54a20e723312326624ea4e894c2a6c10f8e33b6faacf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/openssl/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "4520f242c196cf19cc68b1502484fbf27606da07c04752f98e91ceba667db224"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "ca-certificates, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "p11-kit",
+      "name": "p11-kit",
+      "version": "0.26.5",
+      "purl": "pkg:deb/termi/p11-kit@0.26.5?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3573e8d263cab58998474373d77a7c57e19ee48923e46f00127d547637f92db8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/p11-kit/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "0b299b4efe52417e062e3520a5b80561fa300b83943fa81a601e68d26f7ef027"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libffi, libtasn1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pcre2",
+      "name": "pcre2",
+      "version": "10.49",
+      "purl": "pkg:deb/termi/pcre2@10.49?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8586b4005783a8a1dafcaae21da59552b3b64c64d0abf87fdbea7bd0aa895a7a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/pcre2/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "3d4f6e3cd27218fb539e4d812255c2a8787b43319bb45a6ad76bb3abf70fe293"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "readline",
+      "name": "readline",
+      "version": "8.3.6",
+      "purl": "pkg:deb/termi/readline@8.3.6?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2d9852713f9b5fad164eb68aae4ecce6c01ba8398459df052b9ab69fe8e4a1a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/readline/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "29e24da6099650f92703b2772e9515cfc6004901733b1c8a4dbb3938b85762e3"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libandroid-support, ncurses"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "resolv-conf",
+      "name": "resolv-conf",
+      "version": "1.3",
+      "purl": "pkg:deb/termi/resolv-conf@1.3?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f3ec5d400d9e089bde22aad98e789ce65f751277832ff4fff42e18840e28753"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/resolv-conf/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "29d51b364bc436629089e347a40cd8517817a4a6d9b01e0c838574fdb274c69d"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "sed",
+      "name": "sed",
+      "version": "4.10",
+      "purl": "pkg:deb/termi/sed@4.10?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3409d28fc8dc3409a1d450ef080b7875e58d101d1ce765daca806886c8b016ec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/sed/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "5686f47dcba84267571663331fb7580e484cdbbfd123f8d108fe36dbef26b708"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "tar",
+      "name": "tar",
+      "version": "1.35-3",
+      "purl": "pkg:deb/termi/tar@1.35-3?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6d99e4786a3e708fbc513d67b0710f2b7d460df980438e3186e56d14ac4c7d94"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/tar/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "56cad88503d5b1d3ebc3e6ab8f4b4941113ab8fa6a4e5e6223730939ba267341"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "libacl, libandroid-glob, libandroid-selinux, libiconv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "termux-exec",
+      "name": "termux-exec",
+      "version": "1:2.5.0-1",
+      "purl": "pkg:deb/termi/termux-exec@1%3A2.5.0-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0a7d8ac1c918337fef42ed710b342310121ed036f128b2a29a371bb5f9ec5eb2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/termux-exec/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "c17393ac01252179aed7066ad11c6478225f4a17068c1197ce2029190af3dd67"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "termux-keyring",
+      "name": "termux-keyring",
+      "version": "3.14",
+      "purl": "pkg:deb/termi/termux-keyring@3.14?arch=all",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb313f42be708295cb11fdb9b82c02870274978a169ea2e7be7ab0f214d68414"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/termux-keyring/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "771aa53dc03dfdbaf928b878e70776be456cdbe313767653cf82b2f04c04ab41"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "termux-licenses",
+      "name": "termux-licenses",
+      "version": "2.2",
+      "purl": "pkg:deb/termi/termux-licenses@2.2?arch=all",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "226350e388e8dca3f78bc092668de670e7a03a9e58f64fb38459acaaf968f3f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/termux-licenses/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "a6645bd79592436e1f90cc0da5ed81f212a125c1ec1e321031f23809825a0adb"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "termux-tools",
+      "name": "termux-tools",
+      "version": "1.46.0+really1.45.0-1",
+      "purl": "pkg:deb/termi/termux-tools@1.46.0%2Breally1.45.0-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "14face40de6643a5e36bbe8c2bb2c494078c444f00fcbd3e09cc3a7440330eea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/termux-tools/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "280f823715b82bb54845fd164d2a1738d82ccc88f47b8ab50a1f4c61d56c0640"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "apt, bash, coreutils, dash, grep, sed, termux-exec"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "xxhash",
+      "name": "xxhash",
+      "version": "0.8.4",
+      "purl": "pkg:deb/termi/xxhash@0.8.4?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "71ecadfdbe55f4d5de6c68a637cd2ac57839658b65eeae047b1ee9a5e2035347"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD, GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/xxhash/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "e1c18bce8c412ba117e4094d99e697ab3e3e72356d338b10aca4a68d8cd2e0cf"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "xz-utils",
+      "name": "xz-utils",
+      "version": "5.8.4",
+      "purl": "pkg:deb/termi/xz-utils@5.8.4?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bb6cc0aee69ec639528ce93ecd42dc4dde5d7a596dae9c561cb244a6caffd0bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1, GPL-2.0, GPL-3.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/liblzma/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "b75e6d0c87edd1579e834139c66cd99c1a74de4f0d68bee9c0c9ad46eda30772"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "liblzma (= 5.8.4)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "zlib",
+      "name": "zlib",
+      "version": "1.3.2",
+      "purl": "pkg:deb/termi/zlib@1.3.2?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9d9c07cdee61d205fa9d4342fdfb78f43d64f30638a64acef277929ba93c4d03"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ZLIB (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/zlib/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "9edf6e044f5ca08c91bde6e6b0d99c2569ba0f6bbbc57700bb9a0c5b3b4c27ec"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "zstd",
+      "name": "zstd",
+      "version": "1.5.7-1",
+      "purl": "pkg:deb/termi/zstd@1.5.7-1?arch=aarch64",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ee8f09457753b86a092a4a2410186ca60798888f7c2a168dcf3cc2f4a238dbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0 (recipe declaration)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/termux/termux-packages/blob/a31e3cc46b11d3a19d7cb12c6f56acdaa4c8033a/packages/zstd/build.sh"
+        }
+      ],
+      "properties": [
+        {
+          "name": "termi:recipe:sha256",
+          "value": "d7768dbd39af796ae9d5d1f0cc95d963ed5fa842332aecd9b6b046d87bbc48ec"
+        },
+        {
+          "name": "termi:debian:depends",
+          "value": "liblzma, zlib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:charm.land/bubbles/v2@v2.2.1",
+      "name": "charm.land/bubbles/v2",
+      "version": "v2.2.1",
+      "purl": "pkg:golang/charm.land/bubbles/v2@v2.2.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Fq1+qm5hV6GkvzLQDhCBpXXE5tLgvh1PRriCLwSvIQU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:charm.land/bubbletea/v2@v2.0.10",
+      "name": "charm.land/bubbletea/v2",
+      "version": "v2.0.10",
+      "purl": "pkg:golang/charm.land/bubbletea/v2@v2.0.10",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:oolvo20VBpI0PfqE7iFjkZ1bx0WpmXGfnKz5Yldjq5o="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:charm.land/huh/v2@v2.0.3",
+      "name": "charm.land/huh/v2",
+      "version": "v2.0.3",
+      "purl": "pkg:golang/charm.land/huh/v2@v2.0.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:2cJsMqEPwSywGHvdlKsJyQKPtSJLVnFKyFbsYZTlLkU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:charm.land/lipgloss/v2@v2.0.6",
+      "name": "charm.land/lipgloss/v2",
+      "version": "v2.0.6",
+      "purl": "pkg:golang/charm.land/lipgloss/v2@v2.0.6",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:EaGKeuA8FvF+v2BT5VmZd2LoYLaMZJXA5n34th8nCIQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:dario.cat/mergo@v1.0.2",
+      "name": "dario.cat/mergo",
+      "version": "v1.0.2",
+      "purl": "pkg:golang/dario.cat/mergo@v1.0.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:85+piFYR1tMbRrLcDwR18y4UKJ3aH1Tbzi24VRW1TK8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/AlecAivazis/survey/v2@v2.3.7",
+      "name": "github.com/AlecAivazis/survey/v2",
+      "version": "v2.3.7",
+      "purl": "pkg:golang/github.com/AlecAivazis/survey/v2@v2.3.7",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:6I/u8FvytdGsgonrYsVn2t8t4QiRnh6QSTqkkhIiSjQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/MakeNowJust/heredoc@v1.0.0",
+      "name": "github.com/MakeNowJust/heredoc",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/MakeNowJust/heredoc@v1.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:cXCdzVdstXyiTqTvfqk9SDHpKNjxuom+DOlyEeQ4pzQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/Masterminds/goutils@v1.1.1",
+      "name": "github.com/Masterminds/goutils",
+      "version": "v1.1.1",
+      "purl": "pkg:golang/github.com/Masterminds/goutils@v1.1.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:5nUrii3FMTL5diU80unEVvNevw1nH4+ZV4DSLVJLSYI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/Masterminds/semver/v3@v3.4.0",
+      "name": "github.com/Masterminds/semver/v3",
+      "version": "v3.4.0",
+      "purl": "pkg:golang/github.com/Masterminds/semver/v3@v3.4.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Zog+i5UMtVoCU8oKka5P7i9q9HgrJeGzI9SA1Xbatp0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/Masterminds/sprig/v3@v3.3.0",
+      "name": "github.com/Masterminds/sprig/v3",
+      "version": "v3.3.0",
+      "purl": "pkg:golang/github.com/Masterminds/sprig/v3@v3.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:mQh0Yrg1XPo6vjYXgtf5OtijNAKJRNcTdOOGZe3tPhs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/alecthomas/chroma/v2@v2.27.0",
+      "name": "github.com/alecthomas/chroma/v2",
+      "version": "v2.27.0",
+      "purl": "pkg:golang/github.com/alecthomas/chroma/v2@v2.27.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:FodwmyOBgJULFYmDqibcp9pvfDLWdtPRh9v/r5BXYZs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2",
+      "name": "github.com/asaskevich/govalidator",
+      "version": "v0.0.0-20230301143203-a9d515a09cc2",
+      "purl": "pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:DklsrG3dyBCFEj5IhUbnKptjxatkF07cF2ak3yi77so="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/atotto/clipboard@v0.1.4",
+      "name": "github.com/atotto/clipboard",
+      "version": "v0.1.4",
+      "purl": "pkg:golang/github.com/atotto/clipboard@v0.1.4",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:EH0zSVneZPSuFR11BlR9YppQTVDbh5+16AmcJi4g1z4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/aymanbagabas/go-osc52/v2@v2.0.1",
+      "name": "github.com/aymanbagabas/go-osc52/v2",
+      "version": "v2.0.1",
+      "purl": "pkg:golang/github.com/aymanbagabas/go-osc52/v2@v2.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:HwpRHbFMcZLEVr42D4p7XBqjyuxQH5SMiErDT4WkJ2k="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/aymerick/douceur@v0.2.0",
+      "name": "github.com/aymerick/douceur",
+      "version": "v0.2.0",
+      "purl": "pkg:golang/github.com/aymerick/douceur@v0.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Mv+mAeH1Q+n9Fr+oyamOlAkUNPWPlA8PPGR0QAaYuPk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/blang/semver@v3.5.1+incompatible",
+      "name": "github.com/blang/semver",
+      "version": "v3.5.1+incompatible",
+      "purl": "pkg:golang/github.com/blang/semver@v3.5.1+incompatible",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/briandowns/spinner@v1.23.2",
+      "name": "github.com/briandowns/spinner",
+      "version": "v1.23.2",
+      "purl": "pkg:golang/github.com/briandowns/spinner@v1.23.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Zc6ecUnI+YzLmJniCfDNaMbW0Wid1d5+qcTq4L2FW8w="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/catppuccin/go@v0.3.0",
+      "name": "github.com/catppuccin/go",
+      "version": "v0.3.0",
+      "purl": "pkg:golang/github.com/catppuccin/go@v0.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:d+0/YicIq+hSTo5oPuRi5kOpqkVA5tAsU6dNhvRu+aY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cenkalti/backoff/v4@v4.3.0",
+      "name": "github.com/cenkalti/backoff/v4",
+      "version": "v4.3.0",
+      "purl": "pkg:golang/github.com/cenkalti/backoff/v4@v4.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:MyRJ/UdXutAwSAT+s3wNd7MfTIcy71VQueUuFK343L8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cenkalti/backoff/v5@v5.0.3",
+      "name": "github.com/cenkalti/backoff/v5",
+      "version": "v5.0.3",
+      "purl": "pkg:golang/github.com/cenkalti/backoff/v5@v5.0.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ZN+IMa753KfX5hd8vVaMixjnqRZ3y8CuJKRKj1xcsSM="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cespare/xxhash/v2@v2.3.0",
+      "name": "github.com/cespare/xxhash/v2",
+      "version": "v2.3.0",
+      "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/colorprofile@v0.4.3",
+      "name": "github.com/charmbracelet/colorprofile",
+      "version": "v0.4.3",
+      "purl": "pkg:golang/github.com/charmbracelet/colorprofile@v0.4.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:QPa1IWkYI+AOB+fE+mg/5/4HRMZcaXex9t5KX76i20Q="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/glamour@v0.10.0",
+      "name": "github.com/charmbracelet/glamour",
+      "version": "v0.10.0",
+      "purl": "pkg:golang/github.com/charmbracelet/glamour@v0.10.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:MtZvfwsYCx8jEPFJm3rIBFIMZUfUJ765oX8V6kXldcY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/lipgloss@v1.1.1-0.20250404203927-76690c660834",
+      "name": "github.com/charmbracelet/lipgloss",
+      "version": "v1.1.1-0.20250404203927-76690c660834",
+      "purl": "pkg:golang/github.com/charmbracelet/lipgloss@v1.1.1-0.20250404203927-76690c660834",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ZR7e0ro+SZZiIZD7msJyA+NjkCNNavuiPBLgerbOziE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/ultraviolet@v0.0.0-20260811164956-006e29f97886",
+      "name": "github.com/charmbracelet/ultraviolet",
+      "version": "v0.0.0-20260811164956-006e29f97886",
+      "purl": "pkg:golang/github.com/charmbracelet/ultraviolet@v0.0.0-20260811164956-006e29f97886",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:rdnVWKgJpTVXKuKuJyxDJ+NFJdUaUqGvyGy61OcvlbA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/ansi@v0.11.8",
+      "name": "github.com/charmbracelet/x/ansi",
+      "version": "v0.11.8",
+      "purl": "pkg:golang/github.com/charmbracelet/x/ansi@v0.11.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:JMFwp0CgDC2+jcOB162HH5k7I3FVbgFSMMYg7dSPBQQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/cellbuf@v0.0.15",
+      "name": "github.com/charmbracelet/x/cellbuf",
+      "version": "v0.0.15",
+      "purl": "pkg:golang/github.com/charmbracelet/x/cellbuf@v0.0.15",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ur3pZy0o6z/R7EylET877CBxaiE1Sp1GMxoFPAIztPI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/exp/ordered@v0.1.0",
+      "name": "github.com/charmbracelet/x/exp/ordered",
+      "version": "v0.1.0",
+      "purl": "pkg:golang/github.com/charmbracelet/x/exp/ordered@v0.1.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:55/qLwjIh0gL0Vni+QAWk7T/qRVP6sBf+2agPBgnOFE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/exp/slice@v0.0.0-20250630141444-821143405392",
+      "name": "github.com/charmbracelet/x/exp/slice",
+      "version": "v0.0.0-20250630141444-821143405392",
+      "purl": "pkg:golang/github.com/charmbracelet/x/exp/slice@v0.0.0-20250630141444-821143405392",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:VHLoEcL+kH60a4F8qMsPfOIfWjFE3ciaW4gge2YR3sA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/exp/strings@v0.0.0-20250630141444-821143405392",
+      "name": "github.com/charmbracelet/x/exp/strings",
+      "version": "v0.0.0-20250630141444-821143405392",
+      "purl": "pkg:golang/github.com/charmbracelet/x/exp/strings@v0.0.0-20250630141444-821143405392",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:6ipGA1NEA0AZG2UEf81RQGJvEPvYLn/M18mZcdt4J8g="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/term@v0.2.2",
+      "name": "github.com/charmbracelet/x/term",
+      "version": "v0.2.2",
+      "purl": "pkg:golang/github.com/charmbracelet/x/term@v0.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:xVRT/S2ZcKdhhOuSP4t5cLi5o+JxklsoEObBSgfgZRk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/termios@v0.1.1",
+      "name": "github.com/charmbracelet/x/termios",
+      "version": "v0.1.1",
+      "purl": "pkg:golang/github.com/charmbracelet/x/termios@v0.1.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:o3Q2bT8eqzGnGPOYheoYS8eEleT5ZVNYNy8JawjaNZY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/charmbracelet/x/windows@v0.2.2",
+      "name": "github.com/charmbracelet/x/windows",
+      "version": "v0.2.2",
+      "purl": "pkg:golang/github.com/charmbracelet/x/windows@v0.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:IofanmuvaxnKHuV04sC0eBy/smG6kIKrWG2/jYn2GuM="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cli/browser@v1.3.0",
+      "name": "github.com/cli/browser",
+      "version": "v1.3.0",
+      "purl": "pkg:golang/github.com/cli/browser@v1.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:LejqCrpWr+1pRqmEPDGnTZOjsMe7sehifLynZJuqJpo="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cli/go-gh/v2@v2.16.1",
+      "name": "github.com/cli/go-gh/v2",
+      "version": "v2.16.1",
+      "purl": "pkg:golang/github.com/cli/go-gh/v2@v2.16.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:t8s29LToBmYjXeDXUnK7Wdm7NkYSyzGZK3t4Doa6GX0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cli/oauth@v1.2.2",
+      "name": "github.com/cli/oauth",
+      "version": "v1.2.2",
+      "purl": "pkg:golang/github.com/cli/oauth@v1.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:/qG/wok8jzu66tx7q+duGOIp4DT5P/ACXrdc33UoNUQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cli/safeexec@v1.0.1",
+      "name": "github.com/cli/safeexec",
+      "version": "v1.0.1",
+      "purl": "pkg:golang/github.com/cli/safeexec@v1.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:e/C79PbXF4yYTN/wauC4tviMxEV13BwljGj0N9j+N00="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cli/shurcooL-graphql@v0.0.4",
+      "name": "github.com/cli/shurcooL-graphql",
+      "version": "v0.0.4",
+      "purl": "pkg:golang/github.com/cli/shurcooL-graphql@v0.0.4",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:6MogPnQJLjKkaXPyGqPRXOI2qCsQdqNfUY1QSJu2GuY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/clipperhouse/displaywidth@v0.11.0",
+      "name": "github.com/clipperhouse/displaywidth",
+      "version": "v0.11.0",
+      "purl": "pkg:golang/github.com/clipperhouse/displaywidth@v0.11.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:lBc6kY44VFw+TDx4I8opi/EtL9m20WSEFgwIwO+UVM8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/clipperhouse/uax29/v2@v2.7.0",
+      "name": "github.com/clipperhouse/uax29/v2",
+      "version": "v2.7.0",
+      "purl": "pkg:golang/github.com/clipperhouse/uax29/v2@v2.7.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:+gs4oBZ2gPfVrKPthwbMzWZDaAFPGYK72F0NJv2v7Vk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/cyberphone/json-canonicalization@v0.0.0-20241213102144-19d51d7fe467",
+      "name": "github.com/cyberphone/json-canonicalization",
+      "version": "v0.0.0-20241213102144-19d51d7fe467",
+      "purl": "pkg:golang/github.com/cyberphone/json-canonicalization@v0.0.0-20241213102144-19d51d7fe467",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:uX1JmpONuD549D73r6cgnxyUu18Zb7yHAy5AYU0Pm4Q="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/digitorus/pkcs7@v0.0.0-20230818184609-3a137a874352",
+      "name": "github.com/digitorus/pkcs7",
+      "version": "v0.0.0-20230818184609-3a137a874352",
+      "purl": "pkg:golang/github.com/digitorus/pkcs7@v0.0.0-20230818184609-3a137a874352",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ge14PCmCvPjpMQMIAH7uKg0lrtNSOdpYsRXlwk3QbaE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/digitorus/timestamp@v0.0.0-20250524132541-c45532741eea",
+      "name": "github.com/digitorus/timestamp",
+      "version": "v0.0.0-20250524132541-c45532741eea",
+      "purl": "pkg:golang/github.com/digitorus/timestamp@v0.0.0-20250524132541-c45532741eea",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ALRwvjsSP53QmnN3Bcj0NpR8SsFLnskny/EIMebAk1c="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/distribution/reference@v0.6.0",
+      "name": "github.com/distribution/reference",
+      "version": "v0.6.0",
+      "purl": "pkg:golang/github.com/distribution/reference@v0.6.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:0IXCQ5g4/QMHHkarYzh5l+u8T3t73zM5QvfrDyIgxBk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/dlclark/regexp2/v2@v2.2.1",
+      "name": "github.com/dlclark/regexp2/v2",
+      "version": "v2.2.1",
+      "purl": "pkg:golang/github.com/dlclark/regexp2/v2@v2.2.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:mf4KkFUj0gJuarK8P+LgiS+Lit7m9N1yAwEfPbee7R0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/docker/cli@v29.7.2+incompatible",
+      "name": "github.com/docker/cli",
+      "version": "v29.7.2+incompatible",
+      "purl": "pkg:golang/github.com/docker/cli@v29.7.2+incompatible",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:dlkwallR8XqfeVnA2ELEhdwvb4lsSwuB4IgsG8Q9cLY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/docker/docker-credential-helpers@v0.9.3",
+      "name": "github.com/docker/docker-credential-helpers",
+      "version": "v0.9.3",
+      "purl": "pkg:golang/github.com/docker/docker-credential-helpers@v0.9.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:gAm/VtF9wgqJMoxzT3Gj5p4AqIjCBS4wrsOh9yRqcz8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/dustin/go-humanize@v1.0.1",
+      "name": "github.com/dustin/go-humanize",
+      "version": "v1.0.1",
+      "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/fatih/color@v1.18.0",
+      "name": "github.com/fatih/color",
+      "version": "v1.18.0",
+      "purl": "pkg:golang/github.com/fatih/color@v1.18.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:S8gINlzdQ840/4pfAwic/ZE0djQEH3wM94VfqLTZcOM="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/gabriel-vasile/mimetype@v1.4.16",
+      "name": "github.com/gabriel-vasile/mimetype",
+      "version": "v1.4.16",
+      "purl": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.16",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:5izNFuvA37st1dDRAcA7TtmngBmRgiIPDmTtiEvjx1E="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/gdamore/encoding@v1.0.1",
+      "name": "github.com/gdamore/encoding",
+      "version": "v1.0.1",
+      "purl": "pkg:golang/github.com/gdamore/encoding@v1.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:YzKZckdBL6jVt2Gc+5p82qhrGiqMdG/eNs6Wy0u3Uhw="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/gdamore/tcell/v2@v2.13.10",
+      "name": "github.com/gdamore/tcell/v2",
+      "version": "v2.13.10",
+      "purl": "pkg:golang/github.com/gdamore/tcell/v2@v2.13.10",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Afs3JKt83HnhuUKdZ3MnxUgOqQRWftj5JyDqv1LLynA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-logr/logr@v1.4.4",
+      "name": "github.com/go-logr/logr",
+      "version": "v1.4.4",
+      "purl": "pkg:golang/github.com/go-logr/logr@v1.4.4",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:tG4xh9yMsRCAiodLVTxyrkzSZ9+o0L1Kg/+cPVcbP/8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-logr/stdr@v1.2.2",
+      "name": "github.com/go-logr/stdr",
+      "version": "v1.2.2",
+      "purl": "pkg:golang/github.com/go-logr/stdr@v1.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/analysis@v0.25.5",
+      "name": "github.com/go-openapi/analysis",
+      "version": "v0.25.5",
+      "purl": "pkg:golang/github.com/go-openapi/analysis@v0.25.5",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:xPYEvTb90o1y0epuiOPAoG4QqahjP3cdp5xNlHeKJRI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/errors@v0.22.8",
+      "name": "github.com/go-openapi/errors",
+      "version": "v0.22.8",
+      "purl": "pkg:golang/github.com/go-openapi/errors@v0.22.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:oP7sW7TWc3wFFjrzzj0nI83H2qMBkNjNfSd+XRejk/I="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/jsonpointer@v1.0.0",
+      "name": "github.com/go-openapi/jsonpointer",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v1.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:kR9tHqY0CtZaOPVFm622dPVNhrvYpwr4uCxgL3h1H8s="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/jsonreference@v1.0.0",
+      "name": "github.com/go-openapi/jsonreference",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/go-openapi/jsonreference@v1.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:jlmTr6torcd1YgDQvSfNmRtKzYDO4FGBkrAdlAVWnpY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/loads@v0.25.0",
+      "name": "github.com/go-openapi/loads",
+      "version": "v0.25.0",
+      "purl": "pkg:golang/github.com/go-openapi/loads@v0.25.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:74Bc2snfaVlsHzwdQj/3gsA9XJz3daXTJVs+4ZaK7jI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/runtime@v0.33.0",
+      "name": "github.com/go-openapi/runtime",
+      "version": "v0.33.0",
+      "purl": "pkg:golang/github.com/go-openapi/runtime@v0.33.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Dd3Oj2ig+WH8ckK95l0Wn2V8a4bH/UqWPRZVT0vc8yU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/runtime/server-middleware@v0.30.0",
+      "name": "github.com/go-openapi/runtime/server-middleware",
+      "version": "v0.30.0",
+      "purl": "pkg:golang/github.com/go-openapi/runtime/server-middleware@v0.30.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:8rPoJ/xv7JL8BsovaqboKETlpWBArVh8n+0L/GyePog="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/spec@v0.22.9",
+      "name": "github.com/go-openapi/spec",
+      "version": "v0.22.9",
+      "purl": "pkg:golang/github.com/go-openapi/spec@v0.22.9",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:/vKIFDcGKp0ktZWGbym/tJEWbk6/XOEmAVU0kqKMH+w="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/strfmt@v0.27.0",
+      "name": "github.com/go-openapi/strfmt",
+      "version": "v0.27.0",
+      "purl": "pkg:golang/github.com/go-openapi/strfmt@v0.27.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:kbcTeaD9TXuXD0hhMXzuYa1sdTo6+dWGvwjW93E80IM="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag@v0.26.1",
+      "name": "github.com/go-openapi/swag",
+      "version": "v0.26.1",
+      "purl": "pkg:golang/github.com/go-openapi/swag@v0.26.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:l5sVEyVpwj+DDYeZyo7wQI/Ebn/mKYIyGB/pFwAfGoQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/cmdutils@v0.27.0",
+      "name": "github.com/go-openapi/swag/cmdutils",
+      "version": "v0.27.0",
+      "purl": "pkg:golang/github.com/go-openapi/swag/cmdutils@v0.27.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:aIKiqhB29AaP+7xm8/CPg3uOpeHx2SUp6TvMpu/a31Y="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/conv@v0.27.3",
+      "name": "github.com/go-openapi/swag/conv",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/conv@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:iqJFmGEjmX3AY0lSszABFqRVqOSt99XS0LzNIMJYuhU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/fileutils@v0.27.3",
+      "name": "github.com/go-openapi/swag/fileutils",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/fileutils@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:3UVoZ2RLaIs1lt+2jcKzL8RM3Yk0rmsDE9FLA/HGxFE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/jsonname@v0.26.1",
+      "name": "github.com/go-openapi/swag/jsonname",
+      "version": "v0.26.1",
+      "purl": "pkg:golang/github.com/go-openapi/swag/jsonname@v0.26.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:VReupaV6WxlAsCn0e4DUfgV6bPmINnPpyJDLqSfNPcE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/jsonutils@v0.27.3",
+      "name": "github.com/go-openapi/swag/jsonutils",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/jsonutils@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:1DEz+O82frtSMBcos/7XIn1GnpNTbsD4Bru4Dc/uhRc="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/loading@v0.27.3",
+      "name": "github.com/go-openapi/swag/loading",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/loading@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:L9nQkEgzU7QgFQL+pLEMfGUKxeM4pWwGwbET9Z3weW0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/mangling@v0.27.3",
+      "name": "github.com/go-openapi/swag/mangling",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/mangling@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:gRzzD1PAUoLTtGMgI3KpBmCSOlTuLTFWnviLxLcTnyg="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/netutils@v0.27.0",
+      "name": "github.com/go-openapi/swag/netutils",
+      "version": "v0.27.0",
+      "purl": "pkg:golang/github.com/go-openapi/swag/netutils@v0.27.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:lEUG+hHvPvLggB3A8snFk0IRKNf9uC0YKc+7WYqvAF8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/pools@v0.27.3",
+      "name": "github.com/go-openapi/swag/pools",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/pools@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:gXjImP3F6/56wRRcFgEPld084Y6u2gs21ikPBt8NKBk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/stringutils@v0.27.3",
+      "name": "github.com/go-openapi/swag/stringutils",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/stringutils@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Ru28hnbAvN5wycALQYy8IobHvASq+FUFMlp1QzLM0JI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/typeutils@v0.27.3",
+      "name": "github.com/go-openapi/swag/typeutils",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/typeutils@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:l6SSrx5eR5/WVwrGNzN6bQ9WqL04mrxNBl9YgQ3rcJ4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/swag/yamlutils@v0.27.3",
+      "name": "github.com/go-openapi/swag/yamlutils",
+      "version": "v0.27.3",
+      "purl": "pkg:golang/github.com/go-openapi/swag/yamlutils@v0.27.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:cRFCAoYtslYn9L9T0xWryHy1t7c1MACC+DMj3CLvwvs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-openapi/validate@v0.26.1",
+      "name": "github.com/go-openapi/validate",
+      "version": "v0.26.1",
+      "purl": "pkg:golang/github.com/go-openapi/validate@v0.26.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:pZSbvtRO8G2R2FpWTYRn3w8LrsNwbtaVhP2dWiBa0Us="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/go-viper/mapstructure/v2@v2.5.0",
+      "name": "github.com/go-viper/mapstructure/v2",
+      "version": "v2.5.0",
+      "purl": "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:vM5IJoUAy3d7zRSVtIwQgBj7BiWtMPfmPEgAXnvj1Ro="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/godbus/dbus/v5@v5.2.2",
+      "name": "github.com/godbus/dbus/v5",
+      "version": "v5.2.2",
+      "purl": "pkg:golang/github.com/godbus/dbus/v5@v5.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:TUR3TgtSVDmjiXOgAAyaZbYmIeP3DPkld3jgKGV8mXQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/google/certificate-transparency-go@v1.3.3",
+      "name": "github.com/google/certificate-transparency-go",
+      "version": "v1.3.3",
+      "purl": "pkg:golang/github.com/google/certificate-transparency-go@v1.3.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:hq/rSxztSkXN2tx/3jQqF6Xc0O565UQPdHrOWvZwybo="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/google/go-containerregistry@v0.22.1",
+      "name": "github.com/google/go-containerregistry",
+      "version": "v0.22.1",
+      "purl": "pkg:golang/github.com/google/go-containerregistry@v0.22.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:RZuuSYhTvlDvtsK+NkutoCZ//C0X2ebLK8X8l3ULs84="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510",
+      "name": "github.com/google/shlex",
+      "version": "v0.0.0-20191202100458-e7afc7fbc510",
+      "purl": "pkg:golang/github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:El6M4kTTCOh6aBiKaUGG7oYTSPP8MxqL4YI3kZKwcP4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/google/uuid@v1.6.0",
+      "name": "github.com/google/uuid",
+      "version": "v1.6.0",
+      "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/gorilla/css@v1.0.1",
+      "name": "github.com/gorilla/css",
+      "version": "v1.0.1",
+      "purl": "pkg:golang/github.com/gorilla/css@v1.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ntNaBIghp6JmvWnxbZKANoLyuXTPZ4cAMlo6RyhlbO8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/gorilla/websocket@v1.5.3",
+      "name": "github.com/gorilla/websocket",
+      "version": "v1.5.3",
+      "purl": "pkg:golang/github.com/gorilla/websocket@v1.5.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/grpc-ecosystem/grpc-gateway/v2@v2.29.0",
+      "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
+      "version": "v2.29.0",
+      "purl": "pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.29.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:5VipnvEpbqr2gA2VbM+nYVbkIF28c5ZQfqCBQ5g2xfk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/hashicorp/go-version@v1.9.0",
+      "name": "github.com/hashicorp/go-version",
+      "version": "v1.9.0",
+      "purl": "pkg:golang/github.com/hashicorp/go-version@v1.9.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:CeOIz6k+LoN3qX9Z0tyQrPtiB1DFYRPfCIBtaXPSCnA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/henvic/httpretty@v0.2.0",
+      "name": "github.com/henvic/httpretty",
+      "version": "v0.2.0",
+      "purl": "pkg:golang/github.com/henvic/httpretty@v0.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:U4pKgF9SV4uRrE/7PF85TVnCJxXA91zKFpYU0iFwFOw="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/huandu/xstrings@v1.5.0",
+      "name": "github.com/huandu/xstrings",
+      "version": "v1.5.0",
+      "purl": "pkg:golang/github.com/huandu/xstrings@v1.5.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:2ag3IFq9ZDANvthTwTiqSSZLjDc+BedvHPAp5tJy2TI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/in-toto/attestation@v1.2.0",
+      "name": "github.com/in-toto/attestation",
+      "version": "v1.2.0",
+      "purl": "pkg:golang/github.com/in-toto/attestation@v1.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:aPRUZ3azbqD7yEBD5fP3TD8Dszf+YHo284SOcpahjQk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/in-toto/in-toto-golang@v0.11.0",
+      "name": "github.com/in-toto/in-toto-golang",
+      "version": "v0.11.0",
+      "purl": "pkg:golang/github.com/in-toto/in-toto-golang@v0.11.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:nfidMYBFx+E0lnmX5KUnN2Pdm8zdNKal1ayjJuzzRoA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/itchyny/gojq@v0.12.19",
+      "name": "github.com/itchyny/gojq",
+      "version": "v0.12.19",
+      "purl": "pkg:golang/github.com/itchyny/gojq@v0.12.19",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ttXA0XCLEMoaLOz5lSeFOZ6u6Q3QxmG46vfgI4O0DEs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/itchyny/timefmt-go@v0.1.8",
+      "name": "github.com/itchyny/timefmt-go",
+      "version": "v0.1.8",
+      "purl": "pkg:golang/github.com/itchyny/timefmt-go@v0.1.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:1YEo1JvfXeAHKdjelbYr/uCuhkybaHCeTkH8Bo791OI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/joho/godotenv@v1.5.1",
+      "name": "github.com/joho/godotenv",
+      "version": "v1.5.1",
+      "purl": "pkg:golang/github.com/joho/godotenv@v1.5.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51",
+      "name": "github.com/kballard/go-shellquote",
+      "version": "v0.0.0-20180428030007-95032a82bc51",
+      "purl": "pkg:golang/github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Z9n2FFNUXsshfwJMBgNA0RU6/i7WVaAegv3PtuIHPMs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/klauspost/compress@v1.20.1",
+      "name": "github.com/klauspost/compress",
+      "version": "v1.20.1",
+      "purl": "pkg:golang/github.com/klauspost/compress@v1.20.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:T7kKElXUMXrUJ2E9QhQhxFtcK5rPyLdsGZvdbLMPdiQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/lucasb-eyer/go-colorful@v1.4.1",
+      "name": "github.com/lucasb-eyer/go-colorful",
+      "version": "v1.4.1",
+      "purl": "pkg:golang/github.com/lucasb-eyer/go-colorful@v1.4.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:1EO+WB73+EH8EVbzlrG3KLAfEypQWVHIBqlTf+2hNss="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mattn/go-colorable@v0.1.15",
+      "name": "github.com/mattn/go-colorable",
+      "version": "v0.1.15",
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.15",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:+u9SLTRGnXv73cEsnsmoZBom+dMU88B2M0aDcWy0/jY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mattn/go-isatty@v0.0.24",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.24",
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.24",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:tGZZoVgT/KiqK1c8ocVLeDS8BSWMRd47J3Lbz7vsReI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mattn/go-runewidth@v0.0.27",
+      "name": "github.com/mattn/go-runewidth",
+      "version": "v0.0.27",
+      "purl": "pkg:golang/github.com/mattn/go-runewidth@v0.0.27",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Feg/Oou5zI/wnpgDF6omIU0OokC9GxLC/WRknhVlIR0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mgutz/ansi@v0.0.0-20200706080929-d51e80ef957d",
+      "name": "github.com/mgutz/ansi",
+      "version": "v0.0.0-20200706080929-d51e80ef957d",
+      "purl": "pkg:golang/github.com/mgutz/ansi@v0.0.0-20200706080929-d51e80ef957d",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:5PJl274Y63IEHC+7izoQE9x6ikvDFZS2mDVS3drnohI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/microcosm-cc/bluemonday@v1.0.27",
+      "name": "github.com/microcosm-cc/bluemonday",
+      "version": "v1.0.27",
+      "purl": "pkg:golang/github.com/microcosm-cc/bluemonday@v1.0.27",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:MpEUotklkwCSLeH+Qdx1VJgNqLlpY2KXwXFM08ygZfk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/microsoft/dev-tunnels@v0.2.0",
+      "name": "github.com/microsoft/dev-tunnels",
+      "version": "v0.2.0",
+      "purl": "pkg:golang/github.com/microsoft/dev-tunnels@v0.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:y0XwRz5ARoN34eOKHKeNs/XMLbKWBl96ayvD8Sxzafw="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mitchellh/copystructure@v1.2.0",
+      "name": "github.com/mitchellh/copystructure",
+      "version": "v1.2.0",
+      "purl": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa15WveJJGw="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mitchellh/hashstructure/v2@v2.0.2",
+      "name": "github.com/mitchellh/hashstructure/v2",
+      "version": "v2.0.2",
+      "purl": "pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:vGKWl0YJqUNxE8d+h8f6NJLcCJrgbhC4NcD46KavDd4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/mitchellh/reflectwalk@v1.0.2",
+      "name": "github.com/mitchellh/reflectwalk",
+      "version": "v1.0.2",
+      "purl": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/muesli/cancelreader@v0.2.2",
+      "name": "github.com/muesli/cancelreader",
+      "version": "v0.2.2",
+      "purl": "pkg:golang/github.com/muesli/cancelreader@v0.2.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:3I4Kt4BQjOR54NavqnDogx/MIoWBFa0StPA8ELUXHmA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/muesli/reflow@v0.3.0",
+      "name": "github.com/muesli/reflow",
+      "version": "v0.3.0",
+      "purl": "pkg:golang/github.com/muesli/reflow@v0.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:IFsN6K9NfGtjeggFP+68I4chLZV2yIKsXJFNZ+eWh6s="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/muesli/termenv@v0.16.0",
+      "name": "github.com/muesli/termenv",
+      "version": "v0.16.0",
+      "purl": "pkg:golang/github.com/muesli/termenv@v0.16.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:S5AlUN9dENB57rsbnkPyfdGuWIlkmzJjbFf0Tf5FWUc="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/muhammadmuzzammil1998/jsonc@v1.0.0",
+      "name": "github.com/muhammadmuzzammil1998/jsonc",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/muhammadmuzzammil1998/jsonc@v1.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:8o5gBQn4ZA3NBA9DlTujCj2a4w0tqWrPVjDwhzkgTIs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/oklog/ulid/v2@v2.1.1",
+      "name": "github.com/oklog/ulid/v2",
+      "version": "v2.1.1",
+      "purl": "pkg:golang/github.com/oklog/ulid/v2@v2.1.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:suPZ4ARWLOJLegGFiZZ1dFAkqzhMjL3J1TzI+5wHz8s="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/opencontainers/go-digest@v1.0.0",
+      "name": "github.com/opencontainers/go-digest",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/opencontainers/image-spec@v1.1.1",
+      "name": "github.com/opencontainers/image-spec",
+      "version": "v1.1.1",
+      "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.1.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:y0fUlFfIZhPF1W537XOLg0/fcx6zcHCJwooC2xJA040="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/opentracing/opentracing-go@v1.2.0",
+      "name": "github.com/opentracing/opentracing-go",
+      "version": "v1.2.0",
+      "purl": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/pkg/errors@v0.9.1",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/rivo/tview@v0.42.0",
+      "name": "github.com/rivo/tview",
+      "version": "v0.42.0",
+      "purl": "pkg:golang/github.com/rivo/tview@v0.42.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:b/ftp+RxtDsHSaynXTbJb+/n/BxDEi+W3UfF5jILK6c="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/rivo/uniseg@v0.4.7",
+      "name": "github.com/rivo/uniseg",
+      "version": "v0.4.7",
+      "purl": "pkg:golang/github.com/rivo/uniseg@v0.4.7",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:WUdvkW8uEhrYfLC4ZzdpI2ztxP1I582+49Oc5Mq64VQ="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/rodaine/table@v1.3.0",
+      "name": "github.com/rodaine/table",
+      "version": "v1.3.0",
+      "purl": "pkg:golang/github.com/rodaine/table@v1.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:4/3S3SVkHnVZX91EHFvAMV7K42AnJ0XuymRR2C5HlGE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/secure-systems-lab/go-securesystemslib@v0.11.0",
+      "name": "github.com/secure-systems-lab/go-securesystemslib",
+      "version": "v0.11.0",
+      "purl": "pkg:golang/github.com/secure-systems-lab/go-securesystemslib@v0.11.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/shibumi/go-pathspec@v1.3.0",
+      "name": "github.com/shibumi/go-pathspec",
+      "version": "v1.3.0",
+      "purl": "pkg:golang/github.com/shibumi/go-pathspec@v1.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:QUyMZhFo0Md5B8zV8x2tesohbb5kfbpTi9rBnKh5dkI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/shopspring/decimal@v1.4.0",
+      "name": "github.com/shopspring/decimal",
+      "version": "v1.4.0",
+      "purl": "pkg:golang/github.com/shopspring/decimal@v1.4.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:bxl37RwXBklmTi0C79JfXCEBD1cqqHt0bbgBAGFp81k="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/shurcooL/githubv4@v0.0.0-20240727222349-48295856cce7",
+      "name": "github.com/shurcooL/githubv4",
+      "version": "v0.0.0-20240727222349-48295856cce7",
+      "purl": "pkg:golang/github.com/shurcooL/githubv4@v0.0.0-20240727222349-48295856cce7",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:cYCy18SHPKRkvclm+pWm1Lk4YrREb4IOIb/YdFO0p2M="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/shurcooL/graphql@v0.0.0-20230722043721-ed46e5a46466",
+      "name": "github.com/shurcooL/graphql",
+      "version": "v0.0.0-20230722043721-ed46e5a46466",
+      "purl": "pkg:golang/github.com/shurcooL/graphql@v0.0.0-20230722043721-ed46e5a46466",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:17JxqqJY66GmZVHkmAsGEkcIu0oCe3AM420QDgGwZx0="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/protobuf-specs@v0.5.2",
+      "name": "github.com/sigstore/protobuf-specs",
+      "version": "v0.5.2",
+      "purl": "pkg:golang/github.com/sigstore/protobuf-specs@v0.5.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:RSWWUY8QrVTxbYH00jY/jg2e7YnjzrpwP+PeHTMll0E="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/rekor@v1.5.3",
+      "name": "github.com/sigstore/rekor",
+      "version": "v1.5.3",
+      "purl": "pkg:golang/github.com/sigstore/rekor@v1.5.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:0Tyolw3zreRgm7PUW8dccFLXGBThi08278jI8EXNSr4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/rekor-tiles/v2@v2.3.0",
+      "name": "github.com/sigstore/rekor-tiles/v2",
+      "version": "v2.3.0",
+      "purl": "pkg:golang/github.com/sigstore/rekor-tiles/v2@v2.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:HhMgH61UP0t899V8Fjt7pz1YdgOBptbaQdnCF+79cdc="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/sigstore@v1.10.8",
+      "name": "github.com/sigstore/sigstore",
+      "version": "v1.10.8",
+      "purl": "pkg:golang/github.com/sigstore/sigstore@v1.10.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:1Mgkxvkw4AXMfIP1DOjc6kw0GkUgA8pGVpveN/EfOq4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/sigstore-go@v1.3.0",
+      "name": "github.com/sigstore/sigstore-go",
+      "version": "v1.3.0",
+      "purl": "pkg:golang/github.com/sigstore/sigstore-go@v1.3.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:hnIMHREyCNTYFtOE1o7ae3Axa9B5W5EjUSBJICP2NBE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sigstore/timestamp-authority/v2@v2.1.3",
+      "name": "github.com/sigstore/timestamp-authority/v2",
+      "version": "v2.1.3",
+      "purl": "pkg:golang/github.com/sigstore/timestamp-authority/v2@v2.1.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Fc+LjCTfik1lh3YLkaosENfkXa3R2Y1nswiUKutBdFA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/sirupsen/logrus@v1.9.4",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.9.4",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.4",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:TsZE7l11zFCLZnZ+teH4Umoq5BhEIfIzfRDZ1Uzql2w="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/spf13/cast@v1.10.0",
+      "name": "github.com/spf13/cast",
+      "version": "v1.10.0",
+      "purl": "pkg:golang/github.com/spf13/cast@v1.10.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:h2x0u2shc1QuLHfxi+cTJvs30+ZAHOGRic8uyGTDWxY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/spf13/cobra@v1.10.2",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.10.2",
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.10.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:DMTTonx5m65Ic0GOoRY2c16WCbHxOOw6xxezuLaBpcU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/spf13/pflag@v1.0.10",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.10",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.10",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/stretchr/objx@v0.5.3",
+      "name": "github.com/stretchr/objx",
+      "version": "v0.5.3",
+      "purl": "pkg:golang/github.com/stretchr/objx@v0.5.3",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:jmXUvGomnU1o3W/V5h2VEradbpJDwGrzugQQvL0POH4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/stretchr/testify@v1.12.1",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.12.1",
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.12.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/theupdateframework/go-tuf/v2@v2.4.2",
+      "name": "github.com/theupdateframework/go-tuf/v2",
+      "version": "v2.4.2",
+      "purl": "pkg:golang/github.com/theupdateframework/go-tuf/v2@v2.4.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/thlib/go-timezone-local@v0.0.8",
+      "name": "github.com/thlib/go-timezone-local",
+      "version": "v0.0.8",
+      "purl": "pkg:golang/github.com/thlib/go-timezone-local@v0.0.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:wPh1JtBHBqAKmYjHD4j6GbQMGGbOOOnB6YRMQUTzYAY="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/transparency-dev/formats@v0.1.1",
+      "name": "github.com/transparency-dev/formats",
+      "version": "v0.1.1",
+      "purl": "pkg:golang/github.com/transparency-dev/formats@v0.1.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:4bVHJc+KdBgpA1OJD1yjI+g0i5Z1graCppTMH8lWKJI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/transparency-dev/merkle@v0.0.2",
+      "name": "github.com/transparency-dev/merkle",
+      "version": "v0.0.2",
+      "purl": "pkg:golang/github.com/transparency-dev/merkle@v0.0.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Q9nBoQcZcgPamMkGn7ghV8XiTZ/kRxn1yCG81+twTK4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/twitchtv/twirp@v8.1.3+incompatible",
+      "name": "github.com/twitchtv/twirp",
+      "version": "v8.1.3+incompatible",
+      "purl": "pkg:golang/github.com/twitchtv/twirp@v8.1.3+incompatible",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:+F4TdErPgSUbMZMwp13Q/KgDVuI7HJXP61mNV3/7iuU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/vmihailenco/msgpack/v5@v5.4.1",
+      "name": "github.com/vmihailenco/msgpack/v5",
+      "version": "v5.4.1",
+      "purl": "pkg:golang/github.com/vmihailenco/msgpack/v5@v5.4.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:cQriyiUvjTwOHg8QZaPihLWeRAAVoCpE00IUPn0Bjt8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/vmihailenco/tagparser/v2@v2.0.0",
+      "name": "github.com/vmihailenco/tagparser/v2",
+      "version": "v2.0.0",
+      "purl": "pkg:golang/github.com/vmihailenco/tagparser/v2@v2.0.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:y09buUbR+b5aycVFQs/g70pqKVZNBmxwAhO7/IwNM9g="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/xo/terminfo@v0.0.0-20220910002029-abceb7e1c41e",
+      "name": "github.com/xo/terminfo",
+      "version": "v0.0.0-20220910002029-abceb7e1c41e",
+      "purl": "pkg:golang/github.com/xo/terminfo@v0.0.0-20220910002029-abceb7e1c41e",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:JVG44RsyaB9T2KIHavMF/ppJZNG9ZpyihvCd0w101no="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/youmark/pkcs8@v0.0.0-20240726163527-a2c0da244d78",
+      "name": "github.com/youmark/pkcs8",
+      "version": "v0.0.0-20240726163527-a2c0da244d78",
+      "purl": "pkg:golang/github.com/youmark/pkcs8@v0.0.0-20240726163527-a2c0da244d78",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/yuin/goldmark@v1.8.6",
+      "name": "github.com/yuin/goldmark",
+      "version": "v1.8.6",
+      "purl": "pkg:golang/github.com/yuin/goldmark@v1.8.6",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:d0VcaP1sx9GkFVkoW+KtggpGi2KZ965i14b0+bDQST4="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/yuin/goldmark-emoji@v1.0.6",
+      "name": "github.com/yuin/goldmark-emoji",
+      "version": "v1.0.6",
+      "purl": "pkg:golang/github.com/yuin/goldmark-emoji@v1.0.6",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:QWfF2FYaXwL74tfGOW5izeiZepUDroDJfWubQI9HTHs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:github.com/zalando/go-keyring@v0.2.8",
+      "name": "github.com/zalando/go-keyring",
+      "version": "v0.2.8",
+      "purl": "pkg:golang/github.com/zalando/go-keyring@v0.2.8",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:6sD/Ucpl7jNq10rM2pgqTs0sZ9V3qMrqfIIy5YPccHs="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:go.opentelemetry.io/auto/sdk@v1.2.1",
+      "name": "go.opentelemetry.io/auto/sdk",
+      "version": "v1.2.1",
+      "purl": "pkg:golang/go.opentelemetry.io/auto/sdk@v1.2.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:jXsnJ4Lmnqd11kwkBV2LgLoFMZKizbCi5fNZ/ipaZ64="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:go.opentelemetry.io/otel@v1.44.0",
+      "name": "go.opentelemetry.io/otel",
+      "version": "v1.44.0",
+      "purl": "pkg:golang/go.opentelemetry.io/otel@v1.44.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:JjwHmHpA4iZ3wBxluu2fbbE7j4kqlE8jXyAyPXH7HqU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:go.opentelemetry.io/otel/metric@v1.44.0",
+      "name": "go.opentelemetry.io/otel/metric",
+      "version": "v1.44.0",
+      "purl": "pkg:golang/go.opentelemetry.io/otel/metric@v1.44.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:1w0gILTcHdr3YI+ixLyjemwrVnsMURbTZFrSYCdDdmc="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:go.opentelemetry.io/otel/trace@v1.44.0",
+      "name": "go.opentelemetry.io/otel/trace",
+      "version": "v1.44.0",
+      "purl": "pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:jxF5CsGYCe74MCRx2X4g7WsY/VBKRqqpNvXlX/6gtIk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:go.yaml.in/yaml/v3@v3.0.5",
+      "name": "go.yaml.in/yaml/v3",
+      "version": "v3.0.5",
+      "purl": "pkg:golang/go.yaml.in/yaml/v3@v3.0.5",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:N6y/pJk8buWs9NY5ERU2HSMfm+IuD/OtfdAnq6kESPw="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/crypto@v0.57.0",
+      "name": "golang.org/x/crypto",
+      "version": "v0.57.0",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.57.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:3ZVCjf8Ggz7zneR/EHRVx68Ctf+2pmIMP2UFhh9cC6M="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/mod@v0.41.0",
+      "name": "golang.org/x/mod",
+      "version": "v0.41.0",
+      "purl": "pkg:golang/golang.org/x/mod@v0.41.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/net@v0.58.0",
+      "name": "golang.org/x/net",
+      "version": "v0.58.0",
+      "purl": "pkg:golang/golang.org/x/net@v0.58.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:ynWG7rqYi4ccpTEuPZ2QGWHktVEM9DMCj9yzDE0Q7To="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/sync@v0.23.0",
+      "name": "golang.org/x/sync",
+      "version": "v0.23.0",
+      "purl": "pkg:golang/golang.org/x/sync@v0.23.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:KameEIfc1IkluZyXWLn39Wd4tURc6GbCiISGiZm2bQk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/sys@v0.48.0",
+      "name": "golang.org/x/sys",
+      "version": "v0.48.0",
+      "purl": "pkg:golang/golang.org/x/sys@v0.48.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/term@v0.46.0",
+      "name": "golang.org/x/term",
+      "version": "v0.46.0",
+      "purl": "pkg:golang/golang.org/x/term@v0.46.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:3+OXuTbaKDgwk8jTi3aSLHRlmWqHEUDUtxnbFigO4YE="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:golang.org/x/text@v0.42.0",
+      "name": "golang.org/x/text",
+      "version": "v0.42.0",
+      "purl": "pkg:golang/golang.org/x/text@v0.42.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:JbOZXgfeCPU9gacVtYliJqOhD+zhrEqK4LfdpmlUZqI="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:google.golang.org/genproto/googleapis/api@v0.0.0-20260526163538-3dc84a4a5aaa",
+      "name": "google.golang.org/genproto/googleapis/api",
+      "version": "v0.0.0-20260526163538-3dc84a4a5aaa",
+      "purl": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20260526163538-3dc84a4a5aaa",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Kjn0N0tCrDgiAFW+lGO4JZ3ck44CehvJQMAwj9QF0G8="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:google.golang.org/genproto/googleapis/rpc@v0.0.0-20260526163538-3dc84a4a5aaa",
+      "name": "google.golang.org/genproto/googleapis/rpc",
+      "version": "v0.0.0-20260526163538-3dc84a4a5aaa",
+      "purl": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20260526163538-3dc84a4a5aaa",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:mZHHdPZl0dbGHCflZgAq/Q468DWVFcU2whhB2KAo8fk="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:google.golang.org/grpc@v1.83.2",
+      "name": "google.golang.org/grpc",
+      "version": "v1.83.2",
+      "purl": "pkg:golang/google.golang.org/grpc@v1.83.2",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:EManeRomTObA0BU7I8vXgg/78uE5MJ9M8B39EX2WscU="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:google.golang.org/protobuf@v1.36.12",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.36.12",
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.12",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:pJOKDDOyeXErUroCihFAd5LQuwXBSpVnKGrj5o/fwxc="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:gopkg.in/yaml.v3@v3.0.1",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "go:k8s.io/klog/v2@v2.140.0",
+      "name": "k8s.io/klog/v2",
+      "version": "v2.140.0",
+      "purl": "pkg:golang/k8s.io/klog/v2@v2.140.0",
+      "properties": [
+        {
+          "name": "go:module:sum",
+          "value": "h1:Tf+J3AH7xnUzZyVVXhTgGhEKnFqye14aadWv7bzXdzc="
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "apt",
+      "dependsOn": [
+        "coreutils",
+        "dpkg",
+        "findutils",
+        "gpgv",
+        "grep",
+        "libandroid-glob",
+        "libbz2",
+        "libc++",
+        "libgcrypt",
+        "libgnutls",
+        "libiconv",
+        "liblz4",
+        "liblzma",
+        "sed",
+        "termux-keyring",
+        "termux-licenses",
+        "xxhash",
+        "zlib",
+        "zstd"
+      ]
+    },
+    {
+      "ref": "attr",
+      "dependsOn": []
+    },
+    {
+      "ref": "bash",
+      "dependsOn": [
+        "libandroid-support",
+        "libiconv",
+        "readline"
+      ]
+    },
+    {
+      "ref": "bzip2",
+      "dependsOn": [
+        "libbz2"
+      ]
+    },
+    {
+      "ref": "ca-certificates",
+      "dependsOn": []
+    },
+    {
+      "ref": "coreutils",
+      "dependsOn": [
+        "libandroid-selinux",
+        "libandroid-support",
+        "libgmp",
+        "libiconv",
+        "openssl"
+      ]
+    },
+    {
+      "ref": "dash",
+      "dependsOn": []
+    },
+    {
+      "ref": "diffutils",
+      "dependsOn": [
+        "libiconv"
+      ]
+    },
+    {
+      "ref": "dpkg",
+      "dependsOn": [
+        "bzip2",
+        "coreutils",
+        "diffutils",
+        "gzip",
+        "less",
+        "libbz2",
+        "liblzma",
+        "libmd",
+        "tar",
+        "xz-utils",
+        "zlib",
+        "zstd"
+      ]
+    },
+    {
+      "ref": "findutils",
+      "dependsOn": [
+        "libandroid-support"
+      ]
+    },
+    {
+      "ref": "gh",
+      "dependsOn": [
+        "go:charm.land/bubbles/v2@v2.2.1",
+        "go:charm.land/bubbletea/v2@v2.0.10",
+        "go:charm.land/huh/v2@v2.0.3",
+        "go:charm.land/lipgloss/v2@v2.0.6",
+        "go:dario.cat/mergo@v1.0.2",
+        "go:github.com/AlecAivazis/survey/v2@v2.3.7",
+        "go:github.com/MakeNowJust/heredoc@v1.0.0",
+        "go:github.com/Masterminds/goutils@v1.1.1",
+        "go:github.com/Masterminds/semver/v3@v3.4.0",
+        "go:github.com/Masterminds/sprig/v3@v3.3.0",
+        "go:github.com/alecthomas/chroma/v2@v2.27.0",
+        "go:github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2",
+        "go:github.com/atotto/clipboard@v0.1.4",
+        "go:github.com/aymanbagabas/go-osc52/v2@v2.0.1",
+        "go:github.com/aymerick/douceur@v0.2.0",
+        "go:github.com/blang/semver@v3.5.1+incompatible",
+        "go:github.com/briandowns/spinner@v1.23.2",
+        "go:github.com/catppuccin/go@v0.3.0",
+        "go:github.com/cenkalti/backoff/v4@v4.3.0",
+        "go:github.com/cenkalti/backoff/v5@v5.0.3",
+        "go:github.com/cespare/xxhash/v2@v2.3.0",
+        "go:github.com/charmbracelet/colorprofile@v0.4.3",
+        "go:github.com/charmbracelet/glamour@v0.10.0",
+        "go:github.com/charmbracelet/lipgloss@v1.1.1-0.20250404203927-76690c660834",
+        "go:github.com/charmbracelet/ultraviolet@v0.0.0-20260811164956-006e29f97886",
+        "go:github.com/charmbracelet/x/ansi@v0.11.8",
+        "go:github.com/charmbracelet/x/cellbuf@v0.0.15",
+        "go:github.com/charmbracelet/x/exp/ordered@v0.1.0",
+        "go:github.com/charmbracelet/x/exp/slice@v0.0.0-20250630141444-821143405392",
+        "go:github.com/charmbracelet/x/exp/strings@v0.0.0-20250630141444-821143405392",
+        "go:github.com/charmbracelet/x/term@v0.2.2",
+        "go:github.com/charmbracelet/x/termios@v0.1.1",
+        "go:github.com/charmbracelet/x/windows@v0.2.2",
+        "go:github.com/cli/browser@v1.3.0",
+        "go:github.com/cli/go-gh/v2@v2.16.1",
+        "go:github.com/cli/oauth@v1.2.2",
+        "go:github.com/cli/safeexec@v1.0.1",
+        "go:github.com/cli/shurcooL-graphql@v0.0.4",
+        "go:github.com/clipperhouse/displaywidth@v0.11.0",
+        "go:github.com/clipperhouse/uax29/v2@v2.7.0",
+        "go:github.com/cyberphone/json-canonicalization@v0.0.0-20241213102144-19d51d7fe467",
+        "go:github.com/digitorus/pkcs7@v0.0.0-20230818184609-3a137a874352",
+        "go:github.com/digitorus/timestamp@v0.0.0-20250524132541-c45532741eea",
+        "go:github.com/distribution/reference@v0.6.0",
+        "go:github.com/dlclark/regexp2/v2@v2.2.1",
+        "go:github.com/docker/cli@v29.7.2+incompatible",
+        "go:github.com/docker/docker-credential-helpers@v0.9.3",
+        "go:github.com/dustin/go-humanize@v1.0.1",
+        "go:github.com/fatih/color@v1.18.0",
+        "go:github.com/gabriel-vasile/mimetype@v1.4.16",
+        "go:github.com/gdamore/encoding@v1.0.1",
+        "go:github.com/gdamore/tcell/v2@v2.13.10",
+        "go:github.com/go-logr/logr@v1.4.4",
+        "go:github.com/go-logr/stdr@v1.2.2",
+        "go:github.com/go-openapi/analysis@v0.25.5",
+        "go:github.com/go-openapi/errors@v0.22.8",
+        "go:github.com/go-openapi/jsonpointer@v1.0.0",
+        "go:github.com/go-openapi/jsonreference@v1.0.0",
+        "go:github.com/go-openapi/loads@v0.25.0",
+        "go:github.com/go-openapi/runtime@v0.33.0",
+        "go:github.com/go-openapi/runtime/server-middleware@v0.30.0",
+        "go:github.com/go-openapi/spec@v0.22.9",
+        "go:github.com/go-openapi/strfmt@v0.27.0",
+        "go:github.com/go-openapi/swag@v0.26.1",
+        "go:github.com/go-openapi/swag/cmdutils@v0.27.0",
+        "go:github.com/go-openapi/swag/conv@v0.27.3",
+        "go:github.com/go-openapi/swag/fileutils@v0.27.3",
+        "go:github.com/go-openapi/swag/jsonname@v0.26.1",
+        "go:github.com/go-openapi/swag/jsonutils@v0.27.3",
+        "go:github.com/go-openapi/swag/loading@v0.27.3",
+        "go:github.com/go-openapi/swag/mangling@v0.27.3",
+        "go:github.com/go-openapi/swag/netutils@v0.27.0",
+        "go:github.com/go-openapi/swag/pools@v0.27.3",
+        "go:github.com/go-openapi/swag/stringutils@v0.27.3",
+        "go:github.com/go-openapi/swag/typeutils@v0.27.3",
+        "go:github.com/go-openapi/swag/yamlutils@v0.27.3",
+        "go:github.com/go-openapi/validate@v0.26.1",
+        "go:github.com/go-viper/mapstructure/v2@v2.5.0",
+        "go:github.com/godbus/dbus/v5@v5.2.2",
+        "go:github.com/google/certificate-transparency-go@v1.3.3",
+        "go:github.com/google/go-containerregistry@v0.22.1",
+        "go:github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510",
+        "go:github.com/google/uuid@v1.6.0",
+        "go:github.com/gorilla/css@v1.0.1",
+        "go:github.com/gorilla/websocket@v1.5.3",
+        "go:github.com/grpc-ecosystem/grpc-gateway/v2@v2.29.0",
+        "go:github.com/hashicorp/go-version@v1.9.0",
+        "go:github.com/henvic/httpretty@v0.2.0",
+        "go:github.com/huandu/xstrings@v1.5.0",
+        "go:github.com/in-toto/attestation@v1.2.0",
+        "go:github.com/in-toto/in-toto-golang@v0.11.0",
+        "go:github.com/itchyny/gojq@v0.12.19",
+        "go:github.com/itchyny/timefmt-go@v0.1.8",
+        "go:github.com/joho/godotenv@v1.5.1",
+        "go:github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51",
+        "go:github.com/klauspost/compress@v1.20.1",
+        "go:github.com/lucasb-eyer/go-colorful@v1.4.1",
+        "go:github.com/mattn/go-colorable@v0.1.15",
+        "go:github.com/mattn/go-isatty@v0.0.24",
+        "go:github.com/mattn/go-runewidth@v0.0.27",
+        "go:github.com/mgutz/ansi@v0.0.0-20200706080929-d51e80ef957d",
+        "go:github.com/microcosm-cc/bluemonday@v1.0.27",
+        "go:github.com/microsoft/dev-tunnels@v0.2.0",
+        "go:github.com/mitchellh/copystructure@v1.2.0",
+        "go:github.com/mitchellh/hashstructure/v2@v2.0.2",
+        "go:github.com/mitchellh/reflectwalk@v1.0.2",
+        "go:github.com/muesli/cancelreader@v0.2.2",
+        "go:github.com/muesli/reflow@v0.3.0",
+        "go:github.com/muesli/termenv@v0.16.0",
+        "go:github.com/muhammadmuzzammil1998/jsonc@v1.0.0",
+        "go:github.com/oklog/ulid/v2@v2.1.1",
+        "go:github.com/opencontainers/go-digest@v1.0.0",
+        "go:github.com/opencontainers/image-spec@v1.1.1",
+        "go:github.com/opentracing/opentracing-go@v1.2.0",
+        "go:github.com/pkg/errors@v0.9.1",
+        "go:github.com/rivo/tview@v0.42.0",
+        "go:github.com/rivo/uniseg@v0.4.7",
+        "go:github.com/rodaine/table@v1.3.0",
+        "go:github.com/secure-systems-lab/go-securesystemslib@v0.11.0",
+        "go:github.com/shibumi/go-pathspec@v1.3.0",
+        "go:github.com/shopspring/decimal@v1.4.0",
+        "go:github.com/shurcooL/githubv4@v0.0.0-20240727222349-48295856cce7",
+        "go:github.com/shurcooL/graphql@v0.0.0-20230722043721-ed46e5a46466",
+        "go:github.com/sigstore/protobuf-specs@v0.5.2",
+        "go:github.com/sigstore/rekor@v1.5.3",
+        "go:github.com/sigstore/rekor-tiles/v2@v2.3.0",
+        "go:github.com/sigstore/sigstore@v1.10.8",
+        "go:github.com/sigstore/sigstore-go@v1.3.0",
+        "go:github.com/sigstore/timestamp-authority/v2@v2.1.3",
+        "go:github.com/sirupsen/logrus@v1.9.4",
+        "go:github.com/spf13/cast@v1.10.0",
+        "go:github.com/spf13/cobra@v1.10.2",
+        "go:github.com/spf13/pflag@v1.0.10",
+        "go:github.com/stretchr/objx@v0.5.3",
+        "go:github.com/stretchr/testify@v1.12.1",
+        "go:github.com/theupdateframework/go-tuf/v2@v2.4.2",
+        "go:github.com/thlib/go-timezone-local@v0.0.8",
+        "go:github.com/transparency-dev/formats@v0.1.1",
+        "go:github.com/transparency-dev/merkle@v0.0.2",
+        "go:github.com/twitchtv/twirp@v8.1.3+incompatible",
+        "go:github.com/vmihailenco/msgpack/v5@v5.4.1",
+        "go:github.com/vmihailenco/tagparser/v2@v2.0.0",
+        "go:github.com/xo/terminfo@v0.0.0-20220910002029-abceb7e1c41e",
+        "go:github.com/youmark/pkcs8@v0.0.0-20240726163527-a2c0da244d78",
+        "go:github.com/yuin/goldmark@v1.8.6",
+        "go:github.com/yuin/goldmark-emoji@v1.0.6",
+        "go:github.com/zalando/go-keyring@v0.2.8",
+        "go:go.opentelemetry.io/auto/sdk@v1.2.1",
+        "go:go.opentelemetry.io/otel@v1.44.0",
+        "go:go.opentelemetry.io/otel/metric@v1.44.0",
+        "go:go.opentelemetry.io/otel/trace@v1.44.0",
+        "go:go.yaml.in/yaml/v3@v3.0.5",
+        "go:golang.org/x/crypto@v0.57.0",
+        "go:golang.org/x/mod@v0.41.0",
+        "go:golang.org/x/net@v0.58.0",
+        "go:golang.org/x/sync@v0.23.0",
+        "go:golang.org/x/sys@v0.48.0",
+        "go:golang.org/x/term@v0.46.0",
+        "go:golang.org/x/text@v0.42.0",
+        "go:google.golang.org/genproto/googleapis/api@v0.0.0-20260526163538-3dc84a4a5aaa",
+        "go:google.golang.org/genproto/googleapis/rpc@v0.0.0-20260526163538-3dc84a4a5aaa",
+        "go:google.golang.org/grpc@v1.83.2",
+        "go:google.golang.org/protobuf@v1.36.12",
+        "go:gopkg.in/yaml.v3@v3.0.1",
+        "go:k8s.io/klog/v2@v2.140.0"
+      ]
+    },
+    {
+      "ref": "git",
+      "dependsOn": [
+        "less",
+        "libcurl",
+        "libexpat",
+        "libiconv",
+        "openssl",
+        "pcre2",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "gpgv",
+      "dependsOn": [
+        "libassuan",
+        "libbz2",
+        "libgcrypt",
+        "libgpg-error",
+        "libnpth",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "grep",
+      "dependsOn": [
+        "libandroid-support",
+        "pcre2"
+      ]
+    },
+    {
+      "ref": "gzip",
+      "dependsOn": []
+    },
+    {
+      "ref": "hello",
+      "dependsOn": [
+        "libiconv"
+      ]
+    },
+    {
+      "ref": "less",
+      "dependsOn": [
+        "ncurses",
+        "pcre2"
+      ]
+    },
+    {
+      "ref": "libacl",
+      "dependsOn": [
+        "attr"
+      ]
+    },
+    {
+      "ref": "libandroid-glob",
+      "dependsOn": []
+    },
+    {
+      "ref": "libandroid-selinux",
+      "dependsOn": [
+        "pcre2"
+      ]
+    },
+    {
+      "ref": "libandroid-support",
+      "dependsOn": []
+    },
+    {
+      "ref": "libassuan",
+      "dependsOn": [
+        "libgpg-error"
+      ]
+    },
+    {
+      "ref": "libbz2",
+      "dependsOn": []
+    },
+    {
+      "ref": "libc++",
+      "dependsOn": []
+    },
+    {
+      "ref": "libcurl",
+      "dependsOn": [
+        "libnghttp2",
+        "libnghttp3",
+        "libngtcp2",
+        "libssh2",
+        "openssl",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "libevent",
+      "dependsOn": []
+    },
+    {
+      "ref": "libexpat",
+      "dependsOn": []
+    },
+    {
+      "ref": "libffi",
+      "dependsOn": []
+    },
+    {
+      "ref": "libgcrypt",
+      "dependsOn": [
+        "libgpg-error"
+      ]
+    },
+    {
+      "ref": "libgmp",
+      "dependsOn": [
+        "libc++"
+      ]
+    },
+    {
+      "ref": "libgnutls",
+      "dependsOn": [
+        "ca-certificates",
+        "libc++",
+        "libgmp",
+        "libidn2",
+        "libnettle",
+        "libtasn1",
+        "libunbound",
+        "libunistring",
+        "p11-kit",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "libgpg-error",
+      "dependsOn": []
+    },
+    {
+      "ref": "libiconv",
+      "dependsOn": []
+    },
+    {
+      "ref": "libidn2",
+      "dependsOn": [
+        "libandroid-support",
+        "libiconv",
+        "libunistring"
+      ]
+    },
+    {
+      "ref": "liblz4",
+      "dependsOn": []
+    },
+    {
+      "ref": "liblzma",
+      "dependsOn": []
+    },
+    {
+      "ref": "libmd",
+      "dependsOn": []
+    },
+    {
+      "ref": "libnettle",
+      "dependsOn": [
+        "libgmp"
+      ]
+    },
+    {
+      "ref": "libnghttp2",
+      "dependsOn": []
+    },
+    {
+      "ref": "libnghttp3",
+      "dependsOn": []
+    },
+    {
+      "ref": "libngtcp2",
+      "dependsOn": [
+        "openssl"
+      ]
+    },
+    {
+      "ref": "libnpth",
+      "dependsOn": []
+    },
+    {
+      "ref": "libssh2",
+      "dependsOn": [
+        "openssl",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "libtasn1",
+      "dependsOn": []
+    },
+    {
+      "ref": "libunbound",
+      "dependsOn": [
+        "libevent",
+        "libnghttp2",
+        "libngtcp2",
+        "openssl",
+        "resolv-conf"
+      ]
+    },
+    {
+      "ref": "libunistring",
+      "dependsOn": [
+        "libandroid-support",
+        "libiconv"
+      ]
+    },
+    {
+      "ref": "ncurses",
+      "dependsOn": []
+    },
+    {
+      "ref": "openssl",
+      "dependsOn": [
+        "ca-certificates",
+        "zlib"
+      ]
+    },
+    {
+      "ref": "p11-kit",
+      "dependsOn": [
+        "libffi",
+        "libtasn1"
+      ]
+    },
+    {
+      "ref": "pcre2",
+      "dependsOn": []
+    },
+    {
+      "ref": "readline",
+      "dependsOn": [
+        "libandroid-support",
+        "ncurses"
+      ]
+    },
+    {
+      "ref": "resolv-conf",
+      "dependsOn": []
+    },
+    {
+      "ref": "sed",
+      "dependsOn": []
+    },
+    {
+      "ref": "tar",
+      "dependsOn": [
+        "libacl",
+        "libandroid-glob",
+        "libandroid-selinux",
+        "libiconv"
+      ]
+    },
+    {
+      "ref": "termux-exec",
+      "dependsOn": []
+    },
+    {
+      "ref": "termux-keyring",
+      "dependsOn": []
+    },
+    {
+      "ref": "termux-licenses",
+      "dependsOn": []
+    },
+    {
+      "ref": "termux-tools",
+      "dependsOn": [
+        "apt",
+        "bash",
+        "coreutils",
+        "dash",
+        "grep",
+        "sed",
+        "termux-exec"
+      ]
+    },
+    {
+      "ref": "xxhash",
+      "dependsOn": []
+    },
+    {
+      "ref": "xz-utils",
+      "dependsOn": [
+        "liblzma"
+      ]
+    },
+    {
+      "ref": "zlib",
+      "dependsOn": []
+    },
+    {
+      "ref": "zstd",
+      "dependsOn": [
+        "liblzma",
+        "zlib"
+      ]
+    }
+  ]
+}

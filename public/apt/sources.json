@@ -1,0 +1,891 @@
+[
+  {
+    "recipe_package": "apt",
+    "packages": [
+      "apt"
+    ],
+    "inputs": [
+      {
+        "file": "sources/87ca18392c10822a-apt-2.8.1.tar.bz2",
+        "sha256": "87ca18392c10822a133b738118505f7d04e0b31ba1122bf5d32911311cb2dc7e"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "attr",
+    "packages": [
+      "attr"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d42fa374513180bb-attr-2.6.0.tar.gz",
+        "sha256": "d42fa374513180bb48cb11a46696f488240e5124ff1e6ad88b0abff706985612"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "bash",
+    "packages": [
+      "bash"
+    ],
+    "inputs": [
+      {
+        "file": "sources/0d5cd86965f869a2-bash-5.3.tar.gz",
+        "sha256": "0d5cd86965f869a26cf64f4b71be7b96f90a3ba8b3d74e27e8e9d9d5550f31ba"
+      },
+      {
+        "file": "sources/1f608434364af86b-bash_patch_001.patch",
+        "sha256": "1f608434364af86b9b45c8b0ea3fb3b165fb830d27697e6cdfc7ac17dee3287f"
+      },
+      {
+        "file": "sources/e385548a00130765-bash_patch_002.patch",
+        "sha256": "e385548a00130765ec7938a56fbdca52447ab41fabc95a25f19ade527e282001"
+      },
+      {
+        "file": "sources/f245d9c7dc3f5a20-bash_patch_003.patch",
+        "sha256": "f245d9c7dc3f5a20d84b53d249334747940936f09dc97e1dcb89fc3ab37d60ed"
+      },
+      {
+        "file": "sources/9591d245045529f3-bash_patch_004.patch",
+        "sha256": "9591d245045529f32f0812f94180b9d9ce9023f5a765c039b852e5dfc99747d0"
+      },
+      {
+        "file": "sources/cca1ef52dbbf433b-bash_patch_005.patch",
+        "sha256": "cca1ef52dbbf433bc98e33269b64b2c814028efe2538be1e2c9a377da90bc99d"
+      },
+      {
+        "file": "sources/29119addefed8eff-bash_patch_006.patch",
+        "sha256": "29119addefed8eff91ae37fd51822c31780ee30d4a28376e96002706c995ff10"
+      },
+      {
+        "file": "sources/c0976bbfffa1453c-bash_patch_007.patch",
+        "sha256": "c0976bbfffa1453c7cfdd62058f206a318568ff2d690f5d4fa048793fa3eb299"
+      },
+      {
+        "file": "sources/097cd723cbfb8907-bash_patch_008.patch",
+        "sha256": "097cd723cbfb8907674ac32214063a3fd85282657ec5b4e544d2c0f719653fb4"
+      },
+      {
+        "file": "sources/eee30fe78a4b0cb2-bash_patch_009.patch",
+        "sha256": "eee30fe78a4b0cb2fe20e010e00308899cfc613e0774ebb3c8557a1552f24f8c"
+      },
+      {
+        "file": "sources/cf76f1cce2ea300c-bash_patch_010.patch",
+        "sha256": "cf76f1cce2ea300c18bff9f002d21f280cc931acd17c28518110b93fe6e72569"
+      },
+      {
+        "file": "sources/0298df8f5ea2a31d-bash_patch_011.patch",
+        "sha256": "0298df8f5ea2a31d3be43ed7d269c5b3c7c342dd5b570bea7f64d66dcbbe7531"
+      },
+      {
+        "file": "sources/d71379b39bebaeda-bash_patch_012.patch",
+        "sha256": "d71379b39bebaedaf123414414e77fb458a0a43b9ad3116594c6df7ca6754573"
+      },
+      {
+        "file": "sources/042f9cda967e24bf-bash_patch_013.patch",
+        "sha256": "042f9cda967e24bf4211944697441e93d06ff42b4b998629a98a1b249279f200"
+      },
+      {
+        "file": "sources/bd4360b401d38507-bash_patch_014.patch",
+        "sha256": "bd4360b401d38507e358783dcad8536a99c6789f0d3a5bd0cfb8c4a34144696c"
+      },
+      {
+        "file": "sources/55b79ceee2fc27f6-bash_patch_015.patch",
+        "sha256": "55b79ceee2fc27f6767eed697e939a7eb2fe2a28c01556bd75f18d581014f46e"
+      },
+      {
+        "file": "sources/9ea29b266b7d24cb-bash_patch_016.patch",
+        "sha256": "9ea29b266b7d24cb34d0ff3f1c4631e4d527bfe2d1ef15d17cdb924bf31ef767"
+      },
+      {
+        "file": "sources/443b927b45c1558c-bash_patch_017.patch",
+        "sha256": "443b927b45c1558ca72052410f8b8f6e5152b617ed707061a2781d4375b0d1c3"
+      },
+      {
+        "file": "sources/ae715d76c50341d7-bash_patch_018.patch",
+        "sha256": "ae715d76c50341d7d7095e9a8d2eeed1ca9546152c2ac7289206f90cf30ac697"
+      },
+      {
+        "file": "sources/a25c581e4d0057de-bash_patch_019.patch",
+        "sha256": "a25c581e4d0057dea3833918438a930e2e86ee4c6dc17fe15267b7f04cbc4e3d"
+      },
+      {
+        "file": "sources/df217ed3a9122aa2-bash_patch_020.patch",
+        "sha256": "df217ed3a9122aa2286d9b67bbe348661b6a9db262b580c29150dae55d532896"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "ca-certificates",
+    "packages": [
+      "ca-certificates"
+    ],
+    "inputs": [
+      {
+        "file": "sources/18f1d2c82839d849-keyutil-0.4.0.jar",
+        "sha256": "18f1d2c82839d84949b1ad015343c509e81ef678c24db6112acc6c0761314610"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "coreutils",
+    "packages": [
+      "coreutils"
+    ],
+    "inputs": [
+      {
+        "file": "sources/a480198559733e9b-coreutils-9.12.tar.xz",
+        "sha256": "a480198559733e9b3da999e90543ac6f888a2caa544d8d664c5a1f17e528e210"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "dash",
+    "packages": [
+      "dash"
+    ],
+    "inputs": [
+      {
+        "file": "sources/53622e51df0fd7a2-dash-0.5.13.5.tar.gz",
+        "sha256": "53622e51df0fd7a2950552cfe0da0bee9bfc1510784e752b62eacc49b3776d33"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "diffutils",
+    "packages": [
+      "diffutils"
+    ],
+    "inputs": [
+      {
+        "file": "sources/7c8b7f9fc8609141-diffutils-3.12.tar.xz",
+        "sha256": "7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "dpkg",
+    "packages": [
+      "dpkg"
+    ],
+    "inputs": [
+      {
+        "file": "sources/dc7d158217c7b028-tmp-checkout-version",
+        "sha256": "dc7d158217c7b028788d0fa5dbeff7e9fe6cc11f074b5900e213206d2f59aa30"
+      },
+      {
+        "file": "sources/dpkg-git-source.tar",
+        "sha256": "5e49d1f8912a7062e57fc07f6ccbd22b042146d840718ac1f8611cc4e8a10903"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "findutils",
+    "packages": [
+      "findutils"
+    ],
+    "inputs": [
+      {
+        "file": "sources/bfd19cb06cc71f33-findutils-4.11.0.tar.xz",
+        "sha256": "bfd19cb06cc71f3352d567e90284d8cdac02ac89774bbeadf0b533b0c11432fd"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "gh",
+    "packages": [
+      "gh"
+    ],
+    "inputs": [
+      {
+        "file": "sources/08bf0ef8b4409893-v2.102.0.tar.gz",
+        "sha256": "08bf0ef8b4409893889175e0f5279d30d6edd96465816042c0d7c72eac598158"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "git",
+    "packages": [
+      "git"
+    ],
+    "inputs": [
+      {
+        "file": "sources/26c56c296b38c069-git-2.56.0.tar.xz",
+        "sha256": "26c56c296b38c0695b26fa95f475f1d01704d2d38e73465ca30b0b2f5dc789d3"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "gnupg",
+    "packages": [
+      "gpgv"
+    ],
+    "inputs": [
+      {
+        "file": "sources/bf149d01a2b9fcc0-gnupg-2.5.24.tar.bz2",
+        "sha256": "bf149d01a2b9fcc0e4589b8ae8697d3d5c557ea48ed95a3fa55dd3b1187e6039"
+      },
+      {
+        "file": "sources/7a85413f2bc354f4-libgpg-error-1.61.tar.bz2",
+        "sha256": "7a85413f2bc354f4f8aa832b718af122e48965e9e0eb9012ee659c13c6385c93"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "grep",
+    "packages": [
+      "grep"
+    ],
+    "inputs": [
+      {
+        "file": "sources/2649b27c0e90e632-grep-3.12.tar.xz",
+        "sha256": "2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "gzip",
+    "packages": [
+      "gzip"
+    ],
+    "inputs": [
+      {
+        "file": "sources/9aa0cc780dec156b-gzip-1.15.tar.xz",
+        "sha256": "9aa0cc780dec156b8282844833b342ab7cb08c25d2cd9a1869cdd0df31deff48"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "hello",
+    "packages": [
+      "hello"
+    ],
+    "inputs": [
+      {
+        "file": "sources/0d5f60154382fee1-hello-2.12.3.tar.gz",
+        "sha256": "0d5f60154382fee10b114a1c34e785d8b1f492073ae2d3a6f7b147687b366aa0"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "less",
+    "packages": [
+      "less"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d1008fb78dcae132-less-710.tar.gz",
+        "sha256": "d1008fb78dcae1323ddab664bcb352a61f022b1b131bd8018548e021d975ec7a"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libacl",
+    "packages": [
+      "libacl"
+    ],
+    "inputs": [
+      {
+        "file": "sources/73c853c3d44e1f69-acl-2.4.0.tar.gz",
+        "sha256": "73c853c3d44e1f693e5a96a986f1bd19d3d0dac2c7d453e796177774bc4e5f6a"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libandroid-glob",
+    "packages": [
+      "libandroid-glob"
+    ],
+    "inputs": [],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libandroid-selinux",
+    "packages": [
+      "libandroid-selinux"
+    ],
+    "inputs": [
+      {
+        "file": "sources/libandroid-selinux-git-source.tar",
+        "sha256": "9c3a571e6d210449ca6b05eab2cc174296f94ee2c3e35113eb89e44d4704ad42"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libandroid-support",
+    "packages": [
+      "libandroid-support"
+    ],
+    "inputs": [
+      {
+        "file": "sources/8f74ce0f9cf70ec2-v29.tar.gz",
+        "sha256": "8f74ce0f9cf70ec29f548696c248cac0ba560a2d8916a0fe1cf9316d5f167a80"
+      },
+      {
+        "file": "sources/08489e00f797ffb3-v4.tar.gz",
+        "sha256": "08489e00f797ffb3b71f9c1894c83e5ebe12c90a2ee0e1f9dc7c6eb29a2ff1a8"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libassuan",
+    "packages": [
+      "libassuan"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d2931cdad266e633-libassuan-3.0.2.tar.bz2",
+        "sha256": "d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libbz2",
+    "packages": [
+      "bzip2",
+      "libbz2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/47fd74b2ff83effa-bzip2-1.0.8.tar.xz",
+        "sha256": "47fd74b2ff83effad0ddf62074e6fad1f6b4a77a96e121ab421c20a216371a1f"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libc++",
+    "packages": [
+      "libc++"
+    ],
+    "inputs": [],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libcurl",
+    "packages": [
+      "libcurl"
+    ],
+    "inputs": [
+      {
+        "file": "sources/8dadd7d2536a314f-curl-8.23.0.tar.xz",
+        "sha256": "8dadd7d2536a314f982ad05a651b713f426bf7d02cc2c76cffb9796f2218e6c5"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libevent",
+    "packages": [
+      "libevent"
+    ],
+    "inputs": [
+      {
+        "file": "sources/1a0885e17dc78afb-release-2.1.13-stable.tar.gz",
+        "sha256": "1a0885e17dc78afbaeddf13cf849f9238bbc24acdc178464a0d1934d7c5ffbd5"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libexpat",
+    "packages": [
+      "libexpat"
+    ],
+    "inputs": [
+      {
+        "file": "sources/775e8a68f81a748a-expat-2.9.0.tar.bz2",
+        "sha256": "775e8a68f81a748a401dc3168318d4a39484eb4f954726f21517c8f42c0ba984"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libffi",
+    "packages": [
+      "libffi"
+    ],
+    "inputs": [
+      {
+        "file": "sources/7da3e2d9a171eb0a-libffi-3.8.0.tar.gz",
+        "sha256": "7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libgcrypt",
+    "packages": [
+      "libgcrypt"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d77f68f48879510e-libgcrypt-1.12.4.tar.bz2",
+        "sha256": "d77f68f48879510e79a2f65977ccc68981781ea0923e5bdffac2a193ea3d660e"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libgmp",
+    "packages": [
+      "libgmp"
+    ],
+    "inputs": [
+      {
+        "file": "sources/a3c2b80201b89e68-gmp-6.3.0.tar.xz",
+        "sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libgnutls",
+    "packages": [
+      "libgnutls"
+    ],
+    "inputs": [
+      {
+        "file": "sources/ffed8ec1bf09c242-gnutls-3.8.13.tar.xz",
+        "sha256": "ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libgpg-error",
+    "packages": [
+      "libgpg-error"
+    ],
+    "inputs": [
+      {
+        "file": "sources/7a85413f2bc354f4-libgpg-error-1.61.tar.bz2",
+        "sha256": "7a85413f2bc354f4f8aa832b718af122e48965e9e0eb9012ee659c13c6385c93"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libiconv",
+    "packages": [
+      "libiconv"
+    ],
+    "inputs": [
+      {
+        "file": "sources/88dd96a8c0464eca-libiconv-1.19.tar.gz",
+        "sha256": "88dd96a8c0464eca144fc791ae60cd31cd8ee78321e67397e25fc095c4a19aa6"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libidn2",
+    "packages": [
+      "libidn2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/f557911bf6171621-libidn2-2.3.8.tar.gz",
+        "sha256": "f557911bf6171621e1f72ff35f5b1825bb35b52ed45325dcdee931e5d3c0787a"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "liblz4",
+    "packages": [
+      "liblz4"
+    ],
+    "inputs": [
+      {
+        "file": "sources/537512904744b35e-v1.10.0.tar.gz",
+        "sha256": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "liblzma",
+    "packages": [
+      "liblzma",
+      "xz-utils"
+    ],
+    "inputs": [
+      {
+        "file": "sources/4ce24038fd4221e0-xz-5.8.4.tar.xz",
+        "sha256": "4ce24038fd4221e0d13bc1a2de7a4db56e90b92b3bf75321f6c14be73f65de4b"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libmd",
+    "packages": [
+      "libmd"
+    ],
+    "inputs": [
+      {
+        "file": "sources/fc0f1eb6b6766470-libmd-1.3.0.tar.xz",
+        "sha256": "fc0f1eb6b6766470326f2c014693809190e67dba84274a6fbae9d4912d066706"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libnettle",
+    "packages": [
+      "libnettle"
+    ],
+    "inputs": [
+      {
+        "file": "sources/fe9ff51cb1f2abb5-nettle-3.10.2.tar.gz",
+        "sha256": "fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libnghttp2",
+    "packages": [
+      "libnghttp2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/e05cb1388eaca383-nghttp2-1.70.0.tar.xz",
+        "sha256": "e05cb1388eaca3830aded4ccf20044b6e1ac1a61411dcca11b0437c4285c8bc2"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libnghttp3",
+    "packages": [
+      "libnghttp3"
+    ],
+    "inputs": [
+      {
+        "file": "sources/aad782c23d3f01bd-nghttp3-1.18.0.tar.xz",
+        "sha256": "aad782c23d3f01bd4bb52c8bac7a553b631ef8115fd1612703df6183449fef19"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libngtcp2",
+    "packages": [
+      "libngtcp2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/1c0843076528a87b-ngtcp2-1.25.0.tar.gz",
+        "sha256": "1c0843076528a87b65e9a9d455100941f4cb65d44f96c5da6ae56df146043955"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libnpth",
+    "packages": [
+      "libnpth"
+    ],
+    "inputs": [
+      {
+        "file": "sources/8bd24b4f23a3065d-npth-1.8.tar.bz2",
+        "sha256": "8bd24b4f23a3065d6e5b26e98aba9ce783ea4fd781069c1b35d149694e90ca3e"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libssh2",
+    "packages": [
+      "libssh2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d9ec76cbe34db98e-libssh2-1.11.1.tar.gz",
+        "sha256": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libtasn1",
+    "packages": [
+      "libtasn1"
+    ],
+    "inputs": [
+      {
+        "file": "sources/1d8a444a223cc546-libtasn1-4.21.0.tar.gz",
+        "sha256": "1d8a444a223cc5464240777346e125de51d8e6abf0b8bac742ac84609167dc87"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libunbound",
+    "packages": [
+      "libunbound"
+    ],
+    "inputs": [
+      {
+        "file": "sources/35a6dc0e425a9282-unbound-1.26.1.tar.gz",
+        "sha256": "35a6dc0e425a9282c3426d9a3043144011bf0534aed4b73ab62c52aee0af1503"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "libunistring",
+    "packages": [
+      "libunistring"
+    ],
+    "inputs": [
+      {
+        "file": "sources/5b46e74377ed7409-libunistring-1.4.2.tar.xz",
+        "sha256": "5b46e74377ed7409c5b75e7a96f95377b095623b689d8522620927964a41499c"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "ncurses",
+    "packages": [
+      "ncurses"
+    ],
+    "inputs": [
+      {
+        "file": "sources/4296be402b5684d0-1.28.0.tar.gz",
+        "sha256": "4296be402b5684d049534598e69db92b918f92beac9dab76b585207045f0b037"
+      },
+      {
+        "file": "sources/28cd102efe6a2610-5f58399b2de47ed14bdfe3a0cb149293b27893d5.tar.gz",
+        "sha256": "28cd102efe6a2610e830cc79cf270da6ff0427b2022900a9a36d2761522f9576"
+      },
+      {
+        "file": "sources/aee888a42f6086f9-kitty-0.49.2.tar.xz",
+        "sha256": "aee888a42f6086f9cc5ee009c73f8191d2a3ea119dcaf737fdb37d7f176a54fc"
+      },
+      {
+        "file": "sources/aaa13fcbc149fe0f-rxvt-unicode-9.31.tar.bz2",
+        "sha256": "aaa13fcbc149fe0f3f391f933279580f74a96fd312d6ed06b8ff03c2d46672e8"
+      },
+      {
+        "file": "sources/38d6527d346cda5c-v0.17.0.tar.gz",
+        "sha256": "38d6527d346cda5c6049332a1f3338a89ea66cd7981b54d4c3ce801b392496f8"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "openssl",
+    "packages": [
+      "openssl"
+    ],
+    "inputs": [
+      {
+        "file": "sources/a2157c2830efdec3-openssl-3.6.5.tar.gz",
+        "sha256": "a2157c2830efdec3788939b00c9b0638306d3f0bbb76dc4832ee503bb397df98"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "p11-kit",
+    "packages": [
+      "p11-kit"
+    ],
+    "inputs": [
+      {
+        "file": "sources/f2cc09111e44bf3f-p11-kit-0.26.5.tar.xz",
+        "sha256": "f2cc09111e44bf3fea58f023180b33acea90aa82d042d6fbb623fbc5ba033bb7"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "pcre2",
+    "packages": [
+      "pcre2"
+    ],
+    "inputs": [
+      {
+        "file": "sources/53c156e1ba416a20-pcre2-10.49.tar.bz2",
+        "sha256": "53c156e1ba416a20da8e65395daa132da0d80e76910424caca3fcdae7831d384"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "readline",
+    "packages": [
+      "readline"
+    ],
+    "inputs": [
+      {
+        "file": "sources/fe5383204467828c-readline-8.3.tar.gz",
+        "sha256": "fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc"
+      },
+      {
+        "file": "sources/21f0a03106dbe697-readline_patch_001.patch",
+        "sha256": "21f0a03106dbe697337cd25c70eb0edbaa2bdb6d595b45f83285cdd35bac84de"
+      },
+      {
+        "file": "sources/e27364396ba9f6de-readline_patch_002.patch",
+        "sha256": "e27364396ba9f6debf7cbaaf1a669e2b2854241ae07f7eca74ca8a8ba0c97472"
+      },
+      {
+        "file": "sources/72dee13601ce38f6-readline_patch_003.patch",
+        "sha256": "72dee13601ce38f6746eb15239999a7c56f8e1ff5eb1ec8153a1f213e4acdb29"
+      },
+      {
+        "file": "sources/1f189c4566aa3595-readline_patch_004.patch",
+        "sha256": "1f189c4566aa35950964647b9ec3be1a821e42b86048129c63eb7f9d4d2f5a74"
+      },
+      {
+        "file": "sources/5481adbe161c9f6b-readline_patch_005.patch",
+        "sha256": "5481adbe161c9f6ba972c74db9e18c7aa351d3df3035cc4a673a1aa06247d1c6"
+      },
+      {
+        "file": "sources/4ebd261a60828779-readline_patch_006.patch",
+        "sha256": "4ebd261a608287796e171af0ea9af5a1e3122e46672accda2484b6698c47c1a4"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "resolv-conf",
+    "packages": [
+      "resolv-conf"
+    ],
+    "inputs": [],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "sed",
+    "packages": [
+      "sed"
+    ],
+    "inputs": [
+      {
+        "file": "sources/b8e72182b2ec96a3-sed-4.10.tar.xz",
+        "sha256": "b8e72182b2ec96a3574e2998c47b7aaa64cc20ce000d8e9ac313cc07cecf28c7"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "tar",
+    "packages": [
+      "tar"
+    ],
+    "inputs": [
+      {
+        "file": "sources/4d62ff37342ec7ae-tar-1.35.tar.xz",
+        "sha256": "4d62ff37342ec7aed748535323930c7cf94acf71c3591882b26a7ea50f3edc16"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "termux-exec",
+    "packages": [
+      "termux-exec"
+    ],
+    "inputs": [
+      {
+        "file": "sources/5c5eeb1565ad4379-v2.5.0.tar.gz",
+        "sha256": "5c5eeb1565ad4379ce227ee3017f9fe88611c03ca91f00b8a3fadcf6f7396f51"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "termux-keyring",
+    "packages": [
+      "termux-keyring"
+    ],
+    "inputs": [],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "termux-licenses",
+    "packages": [
+      "termux-licenses"
+    ],
+    "inputs": [],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "termux-tools",
+    "packages": [
+      "termux-tools"
+    ],
+    "inputs": [
+      {
+        "file": "sources/1ae29b1b875d95cc-v1.45.0.tar.gz",
+        "sha256": "1ae29b1b875d95cc626dae323b45a2ace759969862d96094b2fa6d13bffe20d2"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "xxhash",
+    "packages": [
+      "xxhash"
+    ],
+    "inputs": [
+      {
+        "file": "sources/5738270935e7c3d3-v0.8.4.tar.gz",
+        "sha256": "5738270935e7c3d38a79b3adf7c9692566ce7895a25f67de43ad52ab504acd32"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "zlib",
+    "packages": [
+      "zlib"
+    ],
+    "inputs": [
+      {
+        "file": "sources/d7a0654783a4da52-zlib-1.3.2.tar.xz",
+        "sha256": "d7a0654783a4da529d1bb793b7ad9c3318020af77667bcae35f95d0e42a792f3"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  },
+  {
+    "recipe_package": "zstd",
+    "packages": [
+      "zstd"
+    ],
+    "inputs": [
+      {
+        "file": "sources/37d7284556b20954-v1.5.7.tar.gz",
+        "sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3"
+      }
+    ],
+    "note": "Recipe, patches and source references are in build-context/source.tar.gz; platform/toolchain inputs are pinned by upstream.lock.json"
+  }
+]

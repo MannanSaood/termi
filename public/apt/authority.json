@@ -1,0 +1,8 @@
+{
+  "primary": "BB87B4B51BE059A03DBB8AA3E807D1DC6335F51F",
+  "signing_subkey": "210ACB83274F60F24D3E3F3E035672368292AB62",
+  "root_validity": "10 years",
+  "subkey_validity": "2 years",
+  "local_recovery": "Windows current-user DPAPI escrow; preserve Windows profile and backup",
+  "automation_authority": "signing subkey only; no root certification key in Actions"
+}

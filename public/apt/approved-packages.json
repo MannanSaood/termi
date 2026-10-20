@@ -1,0 +1,575 @@
+{
+  "schema": 1,
+  "roots": [
+    "apt",
+    "bash",
+    "termux-exec",
+    "termux-tools",
+    "hello",
+    "git",
+    "gh"
+  ],
+  "packages": [
+    {
+      "name": "apt",
+      "version": "2.8.1-2",
+      "architecture": "aarch64",
+      "file": "apt_2.8.1-2_aarch64.deb",
+      "sha256": "e89e13b85d193487524c77ef0f193f2417cdd095629f24486538d7833c4636db"
+    },
+    {
+      "name": "attr",
+      "version": "2.6.0",
+      "architecture": "aarch64",
+      "file": "attr_2.6.0_aarch64.deb",
+      "sha256": "1f042f3a4530e3827d3b5fbf7a6b00e5174db8173e2608eb8b12fdb381432c65"
+    },
+    {
+      "name": "bash",
+      "version": "5.3.20",
+      "architecture": "aarch64",
+      "file": "bash_5.3.20_aarch64.deb",
+      "sha256": "93b479159fa8b670cddda7ac34562e76c77f1d621ff1eaa35f40e0dd72774af1"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8-8",
+      "architecture": "aarch64",
+      "file": "bzip2_1.0.8-8_aarch64.deb",
+      "sha256": "43baa068a617efc4b1238464d437c11430a5e933b916b351ed8d847ea9b1061f"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "1:2026.09.25",
+      "architecture": "all",
+      "file": "ca-certificates_1%3A2026.09.25_all.deb",
+      "sha256": "711257e09e8e2596029205e0029db9bf6df93b70b11dd8c79ff770f48b50df50"
+    },
+    {
+      "name": "coreutils",
+      "version": "9.12",
+      "architecture": "aarch64",
+      "file": "coreutils_9.12_aarch64.deb",
+      "sha256": "e6dd52b28885d5a503748f5ca751b26a6e84cacd08086e1a0e77f1b6080393e5"
+    },
+    {
+      "name": "dash",
+      "version": "0.5.13.5",
+      "architecture": "aarch64",
+      "file": "dash_0.5.13.5_aarch64.deb",
+      "sha256": "dcdb62140996e92558e3bba412aa521a9bd5cf75b61cf0b10ec34c46050aef7a"
+    },
+    {
+      "name": "diffutils",
+      "version": "3.12-2",
+      "architecture": "aarch64",
+      "file": "diffutils_3.12-2_aarch64.deb",
+      "sha256": "891854b3e1ce3cee3b028e0e1639908a8d34bcbedfe64244744228061e7aade1"
+    },
+    {
+      "name": "dpkg",
+      "version": "1.22.6-5",
+      "architecture": "aarch64",
+      "file": "dpkg_1.22.6-5_aarch64.deb",
+      "sha256": "4085c6c6c85ff7d6679ff1cec3e7a598079667e10709424ceae3565e9c17a4e1"
+    },
+    {
+      "name": "findutils",
+      "version": "4.11.0",
+      "architecture": "aarch64",
+      "file": "findutils_4.11.0_aarch64.deb",
+      "sha256": "55dbb9755e7746b56f7e3aeaf11136b55f90492436da4c3ef7a4a2b1880824d9"
+    },
+    {
+      "name": "gh",
+      "version": "2.102.0-1",
+      "architecture": "aarch64",
+      "file": "gh_2.102.0-1_aarch64.deb",
+      "sha256": "23ceb902ea87dab733e2afbc99b581cb5a5231a1269b882498d7fff3c7b3ba97"
+    },
+    {
+      "name": "git",
+      "version": "2.56.0",
+      "architecture": "aarch64",
+      "file": "git_2.56.0_aarch64.deb",
+      "sha256": "6c7928a1a7deddb4aaad7192010d61303a029cf695191822121b102911cf146b"
+    },
+    {
+      "name": "gpgv",
+      "version": "2.5.24",
+      "architecture": "aarch64",
+      "file": "gpgv_2.5.24_aarch64.deb",
+      "sha256": "505155bc5a811481c6f1884f5f3e0f6ec351b39d9db412492a5a126374d3e117"
+    },
+    {
+      "name": "grep",
+      "version": "3.12-3",
+      "architecture": "aarch64",
+      "file": "grep_3.12-3_aarch64.deb",
+      "sha256": "ac87766b1e4ab34f1cbe990ee85558b3d6fb799648ff475bddfbedbb537d82e0"
+    },
+    {
+      "name": "gzip",
+      "version": "1.15",
+      "architecture": "aarch64",
+      "file": "gzip_1.15_aarch64.deb",
+      "sha256": "789b4b2f4fde92566041a936fc43eca39478317c4f9a55f9ef0c0cd6b6ea7b77"
+    },
+    {
+      "name": "hello",
+      "version": "2.12.3-1",
+      "architecture": "aarch64",
+      "file": "hello_2.12.3-1_aarch64.deb",
+      "sha256": "49f919878ad689a3f804250c28c54fd9bf95fad69a642aa6caee7f2f965cb189"
+    },
+    {
+      "name": "less",
+      "version": "710",
+      "architecture": "aarch64",
+      "file": "less_710_aarch64.deb",
+      "sha256": "33d2f046fc5f3d5a85717959ecc3cd5836a77da44daa44c25121a72183bf6b37"
+    },
+    {
+      "name": "libacl",
+      "version": "2.4.0",
+      "architecture": "aarch64",
+      "file": "libacl_2.4.0_aarch64.deb",
+      "sha256": "31e3719590a3a6b31bbdb7a63410144655fd51c6a47fac25585dba487cc7e3a2"
+    },
+    {
+      "name": "libandroid-glob",
+      "version": "0.6-3",
+      "architecture": "aarch64",
+      "file": "libandroid-glob_0.6-3_aarch64.deb",
+      "sha256": "0c2213fb672dbc5a39784bd9d1edf3491dfc157d3951c4f700a71919e84a89d7"
+    },
+    {
+      "name": "libandroid-selinux",
+      "version": "14.0.0.11-1",
+      "architecture": "aarch64",
+      "file": "libandroid-selinux_14.0.0.11-1_aarch64.deb",
+      "sha256": "c0f547f8237051fba191e31893b9df94ee1639d03bba906ab257f87ec23671e5"
+    },
+    {
+      "name": "libandroid-support",
+      "version": "29-1",
+      "architecture": "aarch64",
+      "file": "libandroid-support_29-1_aarch64.deb",
+      "sha256": "fa40da7253cd8cde48d1f6c2e5033228d7ec81246555d293217963be544bb253"
+    },
+    {
+      "name": "libassuan",
+      "version": "3.0.2-1",
+      "architecture": "aarch64",
+      "file": "libassuan_3.0.2-1_aarch64.deb",
+      "sha256": "6c21495bcc97fd0a99176d537679295fa467b75beded1d0f60939a2e0288dbbc"
+    },
+    {
+      "name": "libbz2",
+      "version": "1.0.8-8",
+      "architecture": "aarch64",
+      "file": "libbz2_1.0.8-8_aarch64.deb",
+      "sha256": "493e2b148b6a363231f26be5532d9803d6c6a04194984b6d460b564bc61b8cc2"
+    },
+    {
+      "name": "libc++",
+      "version": "30",
+      "architecture": "aarch64",
+      "file": "libc++_30_aarch64.deb",
+      "sha256": "90aaf91072fada5c75b96c1f59357518babdc8ca856c293953dc831cbb639c35"
+    },
+    {
+      "name": "libcurl",
+      "version": "8.23.0",
+      "architecture": "aarch64",
+      "file": "libcurl_8.23.0_aarch64.deb",
+      "sha256": "4f02504df60df5b3cdad63b260aef1d84db82e4f26a37f42b5ebe3a018f5cdc1"
+    },
+    {
+      "name": "libevent",
+      "version": "2.1.13",
+      "architecture": "aarch64",
+      "file": "libevent_2.1.13_aarch64.deb",
+      "sha256": "9197a8b53cba389b882fa596773dc70a3966d16fd39c4eb8e26b744582002093"
+    },
+    {
+      "name": "libexpat",
+      "version": "2.9.0",
+      "architecture": "aarch64",
+      "file": "libexpat_2.9.0_aarch64.deb",
+      "sha256": "71c05ed7fbe7383b1384010ac03496211318521a34497d522f94efffd5042bb9"
+    },
+    {
+      "name": "libffi",
+      "version": "3.8.0",
+      "architecture": "aarch64",
+      "file": "libffi_3.8.0_aarch64.deb",
+      "sha256": "cbb8bf885ed42a550cb3140b98da09158d6dad48d88a6dd4ef4b84d0ed7a5924"
+    },
+    {
+      "name": "libgcrypt",
+      "version": "1.12.4",
+      "architecture": "aarch64",
+      "file": "libgcrypt_1.12.4_aarch64.deb",
+      "sha256": "7bef58d3350e0dfbd8724161df0176b3357a60356b32d9bc21c2678afa7bfcc5"
+    },
+    {
+      "name": "libgmp",
+      "version": "6.3.0-2",
+      "architecture": "aarch64",
+      "file": "libgmp_6.3.0-2_aarch64.deb",
+      "sha256": "d03a9a6ada700a391c9a827fe43a8dfac8684f199ab56f0b5fa68df26d445c2b"
+    },
+    {
+      "name": "libgnutls",
+      "version": "3.8.13-1",
+      "architecture": "aarch64",
+      "file": "libgnutls_3.8.13-1_aarch64.deb",
+      "sha256": "968d39bfb54d9df7ef554483142accbafb9fdc1586fe81250b0694b8dc31a76c"
+    },
+    {
+      "name": "libgpg-error",
+      "version": "1.61",
+      "architecture": "aarch64",
+      "file": "libgpg-error_1.61_aarch64.deb",
+      "sha256": "cc55cd55aed466947bcadf516aa6a440fd38b47511f8208db1c1bace4e993865"
+    },
+    {
+      "name": "libiconv",
+      "version": "1.19",
+      "architecture": "aarch64",
+      "file": "libiconv_1.19_aarch64.deb",
+      "sha256": "a77f28d82bf857f1e046ed1d58b3d6c31a2eb2def6c82ae52651d4e8a10d5f57"
+    },
+    {
+      "name": "libidn2",
+      "version": "2.3.8-1",
+      "architecture": "aarch64",
+      "file": "libidn2_2.3.8-1_aarch64.deb",
+      "sha256": "c27c55a193b4a1be57eb95b835de2c787420e0a368e2f27033a5b450b5a5b321"
+    },
+    {
+      "name": "liblz4",
+      "version": "1.10.0-1",
+      "architecture": "aarch64",
+      "file": "liblz4_1.10.0-1_aarch64.deb",
+      "sha256": "c10511ea5d3c0bdbebcb65137827f57cf8bb398fca05fa56575a3e47a0cfe462"
+    },
+    {
+      "name": "liblzma",
+      "version": "5.8.4",
+      "architecture": "aarch64",
+      "file": "liblzma_5.8.4_aarch64.deb",
+      "sha256": "bd84a3336a1ed93bea252c2f0646c11ef6c968ecde905931b9858b274891e70a"
+    },
+    {
+      "name": "libmd",
+      "version": "1.3.0",
+      "architecture": "aarch64",
+      "file": "libmd_1.3.0_aarch64.deb",
+      "sha256": "c5ce44393846a23e3f8b54a7bfa0b5a3d9a2c163db83eaa4f59160e9aab53cd7"
+    },
+    {
+      "name": "libnettle",
+      "version": "4.0+really3.10.2",
+      "architecture": "aarch64",
+      "file": "libnettle_4.0+really3.10.2_aarch64.deb",
+      "sha256": "aad79363320ab71861894cc358e3e9213dd97a66dd473bdbd185286fc13d1388"
+    },
+    {
+      "name": "libnghttp2",
+      "version": "1.70.0",
+      "architecture": "aarch64",
+      "file": "libnghttp2_1.70.0_aarch64.deb",
+      "sha256": "8058b88e5d771f93c149e90601c3eeac46c9ed196a435aae37b69ef0763fc3e4"
+    },
+    {
+      "name": "libnghttp3",
+      "version": "1.18.0",
+      "architecture": "aarch64",
+      "file": "libnghttp3_1.18.0_aarch64.deb",
+      "sha256": "4aca8b7d2f04fa0309c73a214bd9f1a013ff88ce54052927bdda528697721e98"
+    },
+    {
+      "name": "libngtcp2",
+      "version": "1.25.0",
+      "architecture": "aarch64",
+      "file": "libngtcp2_1.25.0_aarch64.deb",
+      "sha256": "5432c92c2d9d33e2b4ea4cdcb49d43f7f7eaf6a4f549a50515eea5a327673087"
+    },
+    {
+      "name": "libnpth",
+      "version": "1.8",
+      "architecture": "aarch64",
+      "file": "libnpth_1.8_aarch64.deb",
+      "sha256": "f3698e1a005a32ceda4e1fc71bb25a4dadbe8a9670fe3b01db0b5e0d3e3d029d"
+    },
+    {
+      "name": "libssh2",
+      "version": "1.11.1-2",
+      "architecture": "aarch64",
+      "file": "libssh2_1.11.1-2_aarch64.deb",
+      "sha256": "4943a79cd34b346047eef7c03c570abf45eb732816960816a1a13db450e5f558"
+    },
+    {
+      "name": "libtasn1",
+      "version": "4.21.0",
+      "architecture": "aarch64",
+      "file": "libtasn1_4.21.0_aarch64.deb",
+      "sha256": "584d29a91ddf30e318b9ad4605208edc76308b270fde7e42bb657496159445fb"
+    },
+    {
+      "name": "libunbound",
+      "version": "1.26.1",
+      "architecture": "aarch64",
+      "file": "libunbound_1.26.1_aarch64.deb",
+      "sha256": "7ccc388d6a8fe74453ef47ca4d1d8ae24f68f4ebc30e16a24e0c728f71810de9"
+    },
+    {
+      "name": "libunistring",
+      "version": "1.4.2",
+      "architecture": "aarch64",
+      "file": "libunistring_1.4.2_aarch64.deb",
+      "sha256": "4c8ca13ad695430095a094de95232b0fe0c02373e3fffd91041b073d7b670a04"
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6.20260307+really6.5.20250830",
+      "architecture": "aarch64",
+      "file": "ncurses_6.6.20260307+really6.5.20250830_aarch64.deb",
+      "sha256": "ff79ecbab0e3048afb28e960083693626ab286ff93702c5721910cec53d13c91"
+    },
+    {
+      "name": "openssl",
+      "version": "1:3.6.5",
+      "architecture": "aarch64",
+      "file": "openssl_1%3A3.6.5_aarch64.deb",
+      "sha256": "d08900fbbec5644c2a4f54a20e723312326624ea4e894c2a6c10f8e33b6faacf"
+    },
+    {
+      "name": "p11-kit",
+      "version": "0.26.5",
+      "architecture": "aarch64",
+      "file": "p11-kit_0.26.5_aarch64.deb",
+      "sha256": "3573e8d263cab58998474373d77a7c57e19ee48923e46f00127d547637f92db8"
+    },
+    {
+      "name": "pcre2",
+      "version": "10.49",
+      "architecture": "aarch64",
+      "file": "pcre2_10.49_aarch64.deb",
+      "sha256": "8586b4005783a8a1dafcaae21da59552b3b64c64d0abf87fdbea7bd0aa895a7a"
+    },
+    {
+      "name": "readline",
+      "version": "8.3.6",
+      "architecture": "aarch64",
+      "file": "readline_8.3.6_aarch64.deb",
+      "sha256": "e2d9852713f9b5fad164eb68aae4ecce6c01ba8398459df052b9ab69fe8e4a1a"
+    },
+    {
+      "name": "resolv-conf",
+      "version": "1.3",
+      "architecture": "aarch64",
+      "file": "resolv-conf_1.3_aarch64.deb",
+      "sha256": "4f3ec5d400d9e089bde22aad98e789ce65f751277832ff4fff42e18840e28753"
+    },
+    {
+      "name": "sed",
+      "version": "4.10",
+      "architecture": "aarch64",
+      "file": "sed_4.10_aarch64.deb",
+      "sha256": "3409d28fc8dc3409a1d450ef080b7875e58d101d1ce765daca806886c8b016ec"
+    },
+    {
+      "name": "tar",
+      "version": "1.35-3",
+      "architecture": "aarch64",
+      "file": "tar_1.35-3_aarch64.deb",
+      "sha256": "6d99e4786a3e708fbc513d67b0710f2b7d460df980438e3186e56d14ac4c7d94"
+    },
+    {
+      "name": "termux-exec",
+      "version": "1:2.5.0-1",
+      "architecture": "aarch64",
+      "file": "termux-exec_1%3A2.5.0-1_aarch64.deb",
+      "sha256": "0a7d8ac1c918337fef42ed710b342310121ed036f128b2a29a371bb5f9ec5eb2"
+    },
+    {
+      "name": "termux-keyring",
+      "version": "3.14",
+      "architecture": "all",
+      "file": "termux-keyring_3.14_all.deb",
+      "sha256": "eb313f42be708295cb11fdb9b82c02870274978a169ea2e7be7ab0f214d68414"
+    },
+    {
+      "name": "termux-licenses",
+      "version": "2.2",
+      "architecture": "all",
+      "file": "termux-licenses_2.2_all.deb",
+      "sha256": "226350e388e8dca3f78bc092668de670e7a03a9e58f64fb38459acaaf968f3f1"
+    },
+    {
+      "name": "termux-tools",
+      "version": "1.46.0+really1.45.0-1",
+      "architecture": "aarch64",
+      "file": "termux-tools_1.46.0+really1.45.0-1_aarch64.deb",
+      "sha256": "14face40de6643a5e36bbe8c2bb2c494078c444f00fcbd3e09cc3a7440330eea"
+    },
+    {
+      "name": "xxhash",
+      "version": "0.8.4",
+      "architecture": "aarch64",
+      "file": "xxhash_0.8.4_aarch64.deb",
+      "sha256": "71ecadfdbe55f4d5de6c68a637cd2ac57839658b65eeae047b1ee9a5e2035347"
+    },
+    {
+      "name": "xz-utils",
+      "version": "5.8.4",
+      "architecture": "aarch64",
+      "file": "xz-utils_5.8.4_aarch64.deb",
+      "sha256": "bb6cc0aee69ec639528ce93ecd42dc4dde5d7a596dae9c561cb244a6caffd0bf"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.2",
+      "architecture": "aarch64",
+      "file": "zlib_1.3.2_aarch64.deb",
+      "sha256": "9d9c07cdee61d205fa9d4342fdfb78f43d64f30638a64acef277929ba93c4d03"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7-1",
+      "architecture": "aarch64",
+      "file": "zstd_1.5.7-1_aarch64.deb",
+      "sha256": "6ee8f09457753b86a092a4a2410186ca60798888f7c2a168dcf3cc2f4a238dbc"
+    }
+  ],
+  "evidence": {
+    "authority.json": "091b5bf8ceb814f367eeaef337b8d98769c0da96d7a18bc5921db8f946600fd2",
+    "build-context/assemble_bootstrap.py": "edd8a73c4741be852c06921958730cfddb6edc71af69d743e345943b7f91fc6d",
+    "build-context/build-in-container.sh": "f1b4c91074b548f3b3ceb9a8a1332c0e3ab362b2d8712b3402f9b2fc59bf98fc",
+    "build-context/collect_artifacts.py": "d0dd56aeec0973c6b964960e76062030415aaabc5c044f95b106cbc3d21d2be3",
+    "build-context/Dockerfile": "02c183007ddb64147e583e2ccb84d8f7ce050fcb185bff7357fbf322fa752fc3",
+    "build-context/overlay/packages/apt/apt-transport-tor.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/apt/build.sh": "40c89cb0b4851ff643ab5ffea5a8c95d690dd0d8a71d87c1f33a9224a3f0dcfe",
+    "build-context/overlay/packages/bash/build.sh": "5fdba592247e649fd6e43fd97bcfeaf4ddaa8c49f6b37cc7078beb56f6a6ff26",
+    "build-context/overlay/packages/dpkg/build.sh": "7381e1bd2b799bfdcaabcf9a285d7b97a8d0b4a69e0c435079292b3364812f14",
+    "build-context/overlay/packages/gh/build.sh": "1b71ee42e5277a5e4c5cf994604a9edf8c9d674a9d60f186e678098ebf04e872",
+    "build-context/overlay/packages/git/build.sh": "87cf1ef1a45a821be15f6460689dcadf2223f53d13837b5ae37c9dc8feeef157",
+    "build-context/overlay/packages/git/git-gitk.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/git/git-gui.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/git/git-svn.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/hash-slinger/build.sh": "4dfa2810707317e7687a8068c7e105074eee9e252a1872576593e414de16f281",
+    "build-context/overlay/packages/libdb/build.sh": "a6cab815643f62cf48fa3da7ec5abafca2c69ed67e179a8bc4c1e8141ceceaac",
+    "build-context/overlay/packages/libunbound/build.sh": "72f7569b129c81ede2654cc3cfcdd5c8bf4d59bc1d66bfed3dbca230c71b9bc7",
+    "build-context/overlay/packages/libunbound/pyunbound.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/libunbound/unbound.subpackage.sh": "9010a80257d2f55f21ca4e85d71f55b37e163abe24f3f520c622f471d4c75d36",
+    "build-context/overlay/packages/termux-keyring/build.sh": "771aa53dc03dfdbaf928b878e70776be456cdbe313767653cf82b2f04c04ab41",
+    "build-context/overlay/packages/termux-tools/build.sh": "280f823715b82bb54845fd164d2a1738d82ccc88f47b8ab50a1f4c61d56c0640",
+    "build-context/overlay/scripts/build/termux_download_deb_pac.sh": "7947fbbd703f353f4b31c8981ba4ee60fe0a8cfb4b1f6322550cb3de322c0515",
+    "build-context/overlay/scripts/build/termux_step_get_dependencies.sh": "7e53602a316dcb7a8f3fe2348bd715e3693124d031bbd457f892262d2f769055",
+    "build-context/overlay/scripts/build/toolchain/termux_setup_toolchain_30.sh": "27936583b9971a0b3fb394bd9b3c715aacbf669532cefb85a955083f411059be",
+    "build-context/overlay/scripts/build-bootstraps.sh": "f7a9c804ea1d9380bb95e582dc98ddfa05e2739af6c9628a028605127b215e46",
+    "build-context/overlay/scripts/properties.sh": "362f40882ae1ea58f4c092c99cbe19c508c5754b904cf31f02e72b16dbbf09c8",
+    "build-context/patch_go_exec.py": "667d9b7822bbf725f41d162bdceaee5ebeb956da806a1982dc33ec851187a449",
+    "build-context/patches.json": "a3fbd4cfa89abd7c5ca0eddafa0e5fe386967e1460ff01b43d2b392731c11a20",
+    "build-context/source.json": "beda448d95cc9f6c929b450c5b83a5bde94c910c8323122e03405deb62f2edde",
+    "build-context/source.tar.gz": "6cb70d3b1b6aaac92de33372da6604bce58dfc2b988b135de6ebd2f37d05d355",
+    "build-context/upstream.lock.json": "25df2e7f12fc21ed109d513fef2c6d76bdafeb36e61b76b4cee2d2e67ae1af8b",
+    "catalog.provenance.json": "1d9fce921ff44d87a5f585fd95b9181a47cfcfceb5f5e8ad96f8b9d2468316c4",
+    "catalog.sbom.cdx.json": "17fe4a0ede934b71ab0d41b9580307cd778ec4a75251f3be02565026314663ac",
+    "gh-buildinfo.txt": "8879c526619a3570d0fff1914de66e4fe9951c5b4f7d8ac48619cd7dce88a7a1",
+    "README.md": "1fd37274925254a1e511cf18d37fc810f847245bf12da8025f04330f1ed22d7f",
+    "repository-keyring.gpg": "f9edf2583b3be476bb005182d7d128526dac80d8944834e005e8a72eb672b566",
+    "runtime-resolution.txt": "f6ddd0bb898bde0791f7ef25163d7e8165b765e33ecd66b3dc05bc3f63d57442",
+    "sources/0298df8f5ea2a31d-bash_patch_011.patch": "0298df8f5ea2a31d3be43ed7d269c5b3c7c342dd5b570bea7f64d66dcbbe7531",
+    "sources/042f9cda967e24bf-bash_patch_013.patch": "042f9cda967e24bf4211944697441e93d06ff42b4b998629a98a1b249279f200",
+    "sources/08489e00f797ffb3-v4.tar.gz": "08489e00f797ffb3b71f9c1894c83e5ebe12c90a2ee0e1f9dc7c6eb29a2ff1a8",
+    "sources/08bf0ef8b4409893-v2.102.0.tar.gz": "08bf0ef8b4409893889175e0f5279d30d6edd96465816042c0d7c72eac598158",
+    "sources/097cd723cbfb8907-bash_patch_008.patch": "097cd723cbfb8907674ac32214063a3fd85282657ec5b4e544d2c0f719653fb4",
+    "sources/0d5cd86965f869a2-bash-5.3.tar.gz": "0d5cd86965f869a26cf64f4b71be7b96f90a3ba8b3d74e27e8e9d9d5550f31ba",
+    "sources/0d5f60154382fee1-hello-2.12.3.tar.gz": "0d5f60154382fee10b114a1c34e785d8b1f492073ae2d3a6f7b147687b366aa0",
+    "sources/18f1d2c82839d849-keyutil-0.4.0.jar": "18f1d2c82839d84949b1ad015343c509e81ef678c24db6112acc6c0761314610",
+    "sources/1a0885e17dc78afb-release-2.1.13-stable.tar.gz": "1a0885e17dc78afbaeddf13cf849f9238bbc24acdc178464a0d1934d7c5ffbd5",
+    "sources/1ae29b1b875d95cc-v1.45.0.tar.gz": "1ae29b1b875d95cc626dae323b45a2ace759969862d96094b2fa6d13bffe20d2",
+    "sources/1c0843076528a87b-ngtcp2-1.25.0.tar.gz": "1c0843076528a87b65e9a9d455100941f4cb65d44f96c5da6ae56df146043955",
+    "sources/1d8a444a223cc546-libtasn1-4.21.0.tar.gz": "1d8a444a223cc5464240777346e125de51d8e6abf0b8bac742ac84609167dc87",
+    "sources/1f189c4566aa3595-readline_patch_004.patch": "1f189c4566aa35950964647b9ec3be1a821e42b86048129c63eb7f9d4d2f5a74",
+    "sources/1f608434364af86b-bash_patch_001.patch": "1f608434364af86b9b45c8b0ea3fb3b165fb830d27697e6cdfc7ac17dee3287f",
+    "sources/21f0a03106dbe697-readline_patch_001.patch": "21f0a03106dbe697337cd25c70eb0edbaa2bdb6d595b45f83285cdd35bac84de",
+    "sources/2649b27c0e90e632-grep-3.12.tar.xz": "2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9",
+    "sources/26c56c296b38c069-git-2.56.0.tar.xz": "26c56c296b38c0695b26fa95f475f1d01704d2d38e73465ca30b0b2f5dc789d3",
+    "sources/28cd102efe6a2610-5f58399b2de47ed14bdfe3a0cb149293b27893d5.tar.gz": "28cd102efe6a2610e830cc79cf270da6ff0427b2022900a9a36d2761522f9576",
+    "sources/29119addefed8eff-bash_patch_006.patch": "29119addefed8eff91ae37fd51822c31780ee30d4a28376e96002706c995ff10",
+    "sources/35a6dc0e425a9282-unbound-1.26.1.tar.gz": "35a6dc0e425a9282c3426d9a3043144011bf0534aed4b73ab62c52aee0af1503",
+    "sources/37d7284556b20954-v1.5.7.tar.gz": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3",
+    "sources/38d6527d346cda5c-v0.17.0.tar.gz": "38d6527d346cda5c6049332a1f3338a89ea66cd7981b54d4c3ce801b392496f8",
+    "sources/4296be402b5684d0-1.28.0.tar.gz": "4296be402b5684d049534598e69db92b918f92beac9dab76b585207045f0b037",
+    "sources/443b927b45c1558c-bash_patch_017.patch": "443b927b45c1558ca72052410f8b8f6e5152b617ed707061a2781d4375b0d1c3",
+    "sources/47fd74b2ff83effa-bzip2-1.0.8.tar.xz": "47fd74b2ff83effad0ddf62074e6fad1f6b4a77a96e121ab421c20a216371a1f",
+    "sources/4ce24038fd4221e0-xz-5.8.4.tar.xz": "4ce24038fd4221e0d13bc1a2de7a4db56e90b92b3bf75321f6c14be73f65de4b",
+    "sources/4d62ff37342ec7ae-tar-1.35.tar.xz": "4d62ff37342ec7aed748535323930c7cf94acf71c3591882b26a7ea50f3edc16",
+    "sources/4ebd261a60828779-readline_patch_006.patch": "4ebd261a608287796e171af0ea9af5a1e3122e46672accda2484b6698c47c1a4",
+    "sources/53622e51df0fd7a2-dash-0.5.13.5.tar.gz": "53622e51df0fd7a2950552cfe0da0bee9bfc1510784e752b62eacc49b3776d33",
+    "sources/537512904744b35e-v1.10.0.tar.gz": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b",
+    "sources/53c156e1ba416a20-pcre2-10.49.tar.bz2": "53c156e1ba416a20da8e65395daa132da0d80e76910424caca3fcdae7831d384",
+    "sources/5481adbe161c9f6b-readline_patch_005.patch": "5481adbe161c9f6ba972c74db9e18c7aa351d3df3035cc4a673a1aa06247d1c6",
+    "sources/55b79ceee2fc27f6-bash_patch_015.patch": "55b79ceee2fc27f6767eed697e939a7eb2fe2a28c01556bd75f18d581014f46e",
+    "sources/5738270935e7c3d3-v0.8.4.tar.gz": "5738270935e7c3d38a79b3adf7c9692566ce7895a25f67de43ad52ab504acd32",
+    "sources/5b46e74377ed7409-libunistring-1.4.2.tar.xz": "5b46e74377ed7409c5b75e7a96f95377b095623b689d8522620927964a41499c",
+    "sources/5c5eeb1565ad4379-v2.5.0.tar.gz": "5c5eeb1565ad4379ce227ee3017f9fe88611c03ca91f00b8a3fadcf6f7396f51",
+    "sources/72dee13601ce38f6-readline_patch_003.patch": "72dee13601ce38f6746eb15239999a7c56f8e1ff5eb1ec8153a1f213e4acdb29",
+    "sources/73c853c3d44e1f69-acl-2.4.0.tar.gz": "73c853c3d44e1f693e5a96a986f1bd19d3d0dac2c7d453e796177774bc4e5f6a",
+    "sources/775e8a68f81a748a-expat-2.9.0.tar.bz2": "775e8a68f81a748a401dc3168318d4a39484eb4f954726f21517c8f42c0ba984",
+    "sources/7a85413f2bc354f4-libgpg-error-1.61.tar.bz2": "7a85413f2bc354f4f8aa832b718af122e48965e9e0eb9012ee659c13c6385c93",
+    "sources/7c8b7f9fc8609141-diffutils-3.12.tar.xz": "7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd",
+    "sources/7da3e2d9a171eb0a-libffi-3.8.0.tar.gz": "7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4",
+    "sources/87ca18392c10822a-apt-2.8.1.tar.bz2": "87ca18392c10822a133b738118505f7d04e0b31ba1122bf5d32911311cb2dc7e",
+    "sources/88dd96a8c0464eca-libiconv-1.19.tar.gz": "88dd96a8c0464eca144fc791ae60cd31cd8ee78321e67397e25fc095c4a19aa6",
+    "sources/8bd24b4f23a3065d-npth-1.8.tar.bz2": "8bd24b4f23a3065d6e5b26e98aba9ce783ea4fd781069c1b35d149694e90ca3e",
+    "sources/8dadd7d2536a314f-curl-8.23.0.tar.xz": "8dadd7d2536a314f982ad05a651b713f426bf7d02cc2c76cffb9796f2218e6c5",
+    "sources/8f74ce0f9cf70ec2-v29.tar.gz": "8f74ce0f9cf70ec29f548696c248cac0ba560a2d8916a0fe1cf9316d5f167a80",
+    "sources/9591d245045529f3-bash_patch_004.patch": "9591d245045529f32f0812f94180b9d9ce9023f5a765c039b852e5dfc99747d0",
+    "sources/9aa0cc780dec156b-gzip-1.15.tar.xz": "9aa0cc780dec156b8282844833b342ab7cb08c25d2cd9a1869cdd0df31deff48",
+    "sources/9ea29b266b7d24cb-bash_patch_016.patch": "9ea29b266b7d24cb34d0ff3f1c4631e4d527bfe2d1ef15d17cdb924bf31ef767",
+    "sources/a2157c2830efdec3-openssl-3.6.5.tar.gz": "a2157c2830efdec3788939b00c9b0638306d3f0bbb76dc4832ee503bb397df98",
+    "sources/a25c581e4d0057de-bash_patch_019.patch": "a25c581e4d0057dea3833918438a930e2e86ee4c6dc17fe15267b7f04cbc4e3d",
+    "sources/a3c2b80201b89e68-gmp-6.3.0.tar.xz": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898",
+    "sources/a480198559733e9b-coreutils-9.12.tar.xz": "a480198559733e9b3da999e90543ac6f888a2caa544d8d664c5a1f17e528e210",
+    "sources/aaa13fcbc149fe0f-rxvt-unicode-9.31.tar.bz2": "aaa13fcbc149fe0f3f391f933279580f74a96fd312d6ed06b8ff03c2d46672e8",
+    "sources/aad782c23d3f01bd-nghttp3-1.18.0.tar.xz": "aad782c23d3f01bd4bb52c8bac7a553b631ef8115fd1612703df6183449fef19",
+    "sources/ae715d76c50341d7-bash_patch_018.patch": "ae715d76c50341d7d7095e9a8d2eeed1ca9546152c2ac7289206f90cf30ac697",
+    "sources/aee888a42f6086f9-kitty-0.49.2.tar.xz": "aee888a42f6086f9cc5ee009c73f8191d2a3ea119dcaf737fdb37d7f176a54fc",
+    "sources/b8e72182b2ec96a3-sed-4.10.tar.xz": "b8e72182b2ec96a3574e2998c47b7aaa64cc20ce000d8e9ac313cc07cecf28c7",
+    "sources/bd4360b401d38507-bash_patch_014.patch": "bd4360b401d38507e358783dcad8536a99c6789f0d3a5bd0cfb8c4a34144696c",
+    "sources/bf149d01a2b9fcc0-gnupg-2.5.24.tar.bz2": "bf149d01a2b9fcc0e4589b8ae8697d3d5c557ea48ed95a3fa55dd3b1187e6039",
+    "sources/bfd19cb06cc71f33-findutils-4.11.0.tar.xz": "bfd19cb06cc71f3352d567e90284d8cdac02ac89774bbeadf0b533b0c11432fd",
+    "sources/c0976bbfffa1453c-bash_patch_007.patch": "c0976bbfffa1453c7cfdd62058f206a318568ff2d690f5d4fa048793fa3eb299",
+    "sources/cca1ef52dbbf433b-bash_patch_005.patch": "cca1ef52dbbf433bc98e33269b64b2c814028efe2538be1e2c9a377da90bc99d",
+    "sources/cf76f1cce2ea300c-bash_patch_010.patch": "cf76f1cce2ea300c18bff9f002d21f280cc931acd17c28518110b93fe6e72569",
+    "sources/d1008fb78dcae132-less-710.tar.gz": "d1008fb78dcae1323ddab664bcb352a61f022b1b131bd8018548e021d975ec7a",
+    "sources/d2931cdad266e633-libassuan-3.0.2.tar.bz2": "d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6",
+    "sources/d42fa374513180bb-attr-2.6.0.tar.gz": "d42fa374513180bb48cb11a46696f488240e5124ff1e6ad88b0abff706985612",
+    "sources/d71379b39bebaeda-bash_patch_012.patch": "d71379b39bebaedaf123414414e77fb458a0a43b9ad3116594c6df7ca6754573",
+    "sources/d77f68f48879510e-libgcrypt-1.12.4.tar.bz2": "d77f68f48879510e79a2f65977ccc68981781ea0923e5bdffac2a193ea3d660e",
+    "sources/d7a0654783a4da52-zlib-1.3.2.tar.xz": "d7a0654783a4da529d1bb793b7ad9c3318020af77667bcae35f95d0e42a792f3",
+    "sources/d9ec76cbe34db98e-libssh2-1.11.1.tar.gz": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7",
+    "sources/dc7d158217c7b028-tmp-checkout-version": "dc7d158217c7b028788d0fa5dbeff7e9fe6cc11f074b5900e213206d2f59aa30",
+    "sources/df217ed3a9122aa2-bash_patch_020.patch": "df217ed3a9122aa2286d9b67bbe348661b6a9db262b580c29150dae55d532896",
+    "sources/dpkg-git-source.tar": "5e49d1f8912a7062e57fc07f6ccbd22b042146d840718ac1f8611cc4e8a10903",
+    "sources/e05cb1388eaca383-nghttp2-1.70.0.tar.xz": "e05cb1388eaca3830aded4ccf20044b6e1ac1a61411dcca11b0437c4285c8bc2",
+    "sources/e27364396ba9f6de-readline_patch_002.patch": "e27364396ba9f6debf7cbaaf1a669e2b2854241ae07f7eca74ca8a8ba0c97472",
+    "sources/e385548a00130765-bash_patch_002.patch": "e385548a00130765ec7938a56fbdca52447ab41fabc95a25f19ade527e282001",
+    "sources/eee30fe78a4b0cb2-bash_patch_009.patch": "eee30fe78a4b0cb2fe20e010e00308899cfc613e0774ebb3c8557a1552f24f8c",
+    "sources/f245d9c7dc3f5a20-bash_patch_003.patch": "f245d9c7dc3f5a20d84b53d249334747940936f09dc97e1dcb89fc3ab37d60ed",
+    "sources/f2cc09111e44bf3f-p11-kit-0.26.5.tar.xz": "f2cc09111e44bf3fea58f023180b33acea90aa82d042d6fbb623fbc5ba033bb7",
+    "sources/f557911bf6171621-libidn2-2.3.8.tar.gz": "f557911bf6171621e1f72ff35f5b1825bb35b52ed45325dcdee931e5d3c0787a",
+    "sources/fc0f1eb6b6766470-libmd-1.3.0.tar.xz": "fc0f1eb6b6766470326f2c014693809190e67dba84274a6fbae9d4912d066706",
+    "sources/fe5383204467828c-readline-8.3.tar.gz": "fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc",
+    "sources/fe9ff51cb1f2abb5-nettle-3.10.2.tar.gz": "fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5",
+    "sources/ffed8ec1bf09c242-gnutls-3.8.13.tar.xz": "ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e",
+    "sources/libandroid-selinux-git-source.tar": "9c3a571e6d210449ca6b05eab2cc174296f94ee2c3e35113eb89e44d4704ad42",
+    "sources.json": "04b6d57b0433e4e83fc8620600e02de45e25ff739f27507925a686763d019538"
+  }
+}
