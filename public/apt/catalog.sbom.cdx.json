@@ -410,12 +410,12 @@
       "type": "application",
       "bom-ref": "git",
       "name": "git",
-      "version": "2.56.0",
-      "purl": "pkg:deb/termi/git@2.56.0?arch=aarch64",
+      "version": "2.56.0-1",
+      "purl": "pkg:deb/termi/git@2.56.0-1?arch=aarch64",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "6c7928a1a7deddb4aaad7192010d61303a029cf695191822121b102911cf146b"
+          "content": "8110021151937ef096cd97860f399e0343fb87aca224899995e3c048a2223d61"
         }
       ],
       "licenses": [
@@ -434,7 +434,7 @@
       "properties": [
         {
           "name": "termi:recipe:sha256",
-          "value": "87cf1ef1a45a821be15f6460689dcadf2223f53d13837b5ae37c9dc8feeef157"
+          "value": "ac7586fd4af80158d1e2dab3568f02bd7117553dacd9e51cfde93b49adf9f61d"
         },
         {
           "name": "termi:debian:depends",

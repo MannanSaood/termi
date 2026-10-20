@@ -152,7 +152,17 @@
   {
     "path": "packages/git/build.sh",
     "before_sha256": "d870927f11f0b7555c96d4c88fbc730aa162c0d685d4fe1068bda1a3353ba5c0",
-    "after_sha256": "87cf1ef1a45a821be15f6460689dcadf2223f53d13837b5ae37c9dc8feeef157"
+    "after_sha256": "e083acf851b4768b558ac90788d98219e51079b22a59b90a7d7053f61b92573d"
+  },
+  {
+    "path": "packages/git/build.sh",
+    "before_sha256": "e083acf851b4768b558ac90788d98219e51079b22a59b90a7d7053f61b92573d",
+    "after_sha256": "56e2af0698f17870d07d502f7f951aca7fef951ff94b5da6a5f3c2e06245cb77"
+  },
+  {
+    "path": "packages/git/build.sh",
+    "before_sha256": "56e2af0698f17870d07d502f7f951aca7fef951ff94b5da6a5f3c2e06245cb77",
+    "after_sha256": "ac7586fd4af80158d1e2dab3568f02bd7117553dacd9e51cfde93b49adf9f61d"
   },
   {
     "path": "scripts/build-bootstraps.sh",
