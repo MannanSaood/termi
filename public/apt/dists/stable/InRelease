@@ -5,8 +5,8 @@ Origin: Termi
 Label: Termi approved ARM64 packages
 Suite: stable
 Codename: stable
-Date: Mon, 02 Nov 2026 12:30:40 +0000
-Valid-Until: Thu, 17 Dec 2026 12:30:40 +0000
+Date: Mon, 09 Nov 2026 12:56:28 +0000
+Valid-Until: Thu, 24 Dec 2026 12:56:28 +0000
 Architectures: aarch64
 Components: main
 Acquire-By-Hash: yes
@@ -18,8 +18,8 @@ SHA256:
  42a7c96ca54418ec9e835b8d666f1e92088b1d286c039409b0da6d9e030842ab 31163 main/binary-aarch64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQhCsuDJ09g8k0+Pz4DVnI2gpKrYgUCauiCcAAKCRADVnI2gpKr
-Yqc3AQCE521zDP6gUDScd0TSJ0GXuK32qs0cATJEWtC1I/0dQQD+JoLDMDAztJFF
-CYBAfPkSswsXbsA+yfepij1GuNusngI=
-=Awpr
+iHUEARYKAB0WIQQhCsuDJ09g8k0+Pz4DVnI2gpKrYgUCavHC/AAKCRADVnI2gpKr
+YgXzAP4+8f844uLMJi1LQ6nGjaMKmuSu9RM+b1NsZr3r4x89eAEAz5pZNFcOIdAs
+AhD4XZhAZIZ/afs9PnqoQsz3yvMkKQw=
+=0f+L
 -----END PGP SIGNATURE-----
